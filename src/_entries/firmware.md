@@ -6,4 +6,4 @@ title: Firmware Guide
 is-parent: yes
 number: 2300
 ---
-Firmware Guide
+There are a number of options for the firmware powering your keyboard, each with their own sets of features and options

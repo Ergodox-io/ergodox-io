@@ -2,7 +2,7 @@
 sectionclass: h1
 sectionid: variants
 is-parent: yes
-title: Varients
+title: Variants
 number: 3000
 ---
-Varients will go here such as the Ergodox-EZ and Infinity
+Variants will go here such as the Ergodox-EZ and Infinity
