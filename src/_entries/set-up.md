@@ -1,16 +1,21 @@
 ---
-sectionid: set-up
+sectionid: guide
 sectionclass: h1
 is-parent: yes
-title: Set Up
+title: Guide
 number: 2000
 ---
-Setting Docster up is super simple. Just like with all jekyll-sites you just need a GitHub account to host it. Docster is independent of any plugins so the only requirement is a jekyll installation to check the result before pushing.
-
-So download this theme, navigate into the folder, open a terminal and type
-
-{% highlight bash %}
-jekyll serve
-{% endhighlight %}
-
-You will then be able to see the page at **localhost:4000** and make your changes. When you are happy just push them to github in a gh-pages branch and you're site will be compiled by GitHub for you.
+Divide into sections:
+- Parts needed
+	Electronics
+		Where to get them
+	Case
+		Acrylic/Laser cut
+		3D printed
+	Switches
+	Keycaps
+- Assembly Guide
+- Firmware Guide
+	QMK
+	TMK
+	Other?
