@@ -1,0 +1,27 @@
+gems:
+  - bourbon
+  - neat
+  - octopress-autoprefixer
+
+# Structure configuration
+source: source
+destination: build
+
+assets:
+  cachebust: soft
+
+# Site settings
+title: Ergodox
+
+# the following description was taken word for word from the Deskthority Wiki
+# it should be rephrased
+# https://deskthority.net/wiki/ErgoDox
+description: >
+  The ErgoDox is a DIY keyboard project initiated by user Dox (Dominic Beauchamp).
+  The design is ergonomic, split in two separate halves with a columnar layout.
+
+# Name of project on Github
+baseurl: ""
+
+# Build settings
+markdown: kramdown
