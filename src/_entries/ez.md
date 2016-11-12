@@ -6,4 +6,11 @@ is-parent: yes
 number: 3200
 title: EZ
 ---
-Stuff about the EZ
+homepage: https://ergodox-ez.com
+
+firmware:
+qmk
+qmk online configuration tool: http://configure.ergodox-ez.com/keyboard_layouts/new
+
+differences:
+preassembled

@@ -5,4 +5,4 @@ parent-id: firmware
 number: 2310
 title: QMK
 ---
-QMK stuff goes here
+Homepage: http://qmk.fm/
