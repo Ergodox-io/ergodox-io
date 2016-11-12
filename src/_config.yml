@@ -20,3 +20,4 @@ exclude: [
 README.md,
 .sass-cache
 ]
+destination: ../deploy
