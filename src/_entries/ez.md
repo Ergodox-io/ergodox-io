@@ -6,11 +6,12 @@ is-parent: yes
 number: 3200
 title: EZ
 ---
-homepage: https://ergodox-ez.com
+[Homepage](https://ergodox-ez.com)
 
-firmware:
-qmk
-qmk online configuration tool: http://configure.ergodox-ez.com/keyboard_layouts/new
+Firmware:
+- [QMK](http://qmk.fm/)
+- [QMK Online Configuration](http://configure.ergodox-ez.com/keyboard_layouts/new)
 
-differences:
-preassembled
+Differences:
+- Preassembled
+- Optional tenting legs

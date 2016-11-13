@@ -4,9 +4,9 @@ sectionclass: h1
 title: Introduction
 number: 1000
 ---
-If you want to contribute to this website, pull requests and github issues can be filed here: https://github.com/Ergodox-io/ergodox-io
+The website is a community built and sponsered project as is the Ergodox keyboard.
 
-The website is a community built and sponsered project.
+If you want to contribute to the website, pull requests, bugs (via Github issues) can be filed at our [Github](https://github.com/Ergodox-io/ergodox-io)
 
 The ErgoDox keyboard is a DIY keyboard project kit originally developed by "Dox" (Dominic Beauchamp).
 The printed circuit board was designed by "bpiphany" (Fredrik Atmer).
