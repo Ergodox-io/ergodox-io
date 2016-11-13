@@ -1,8 +1,8 @@
 ---
 sectionid: tmk
-sectionclass: h3
+sectionclass: h4
 parent-id: firmware
-number: 2330
+number: 2302
 title: TMK
 ---
-https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox
+[Github](https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox)
