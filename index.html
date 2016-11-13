@@ -52,15 +52,19 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="#ergodox-firmware">Original Ergodox Firmware</a>
-                                </li>
-                                
-                                <li>
                                     <a href="#tmk">TMK</a>
                                 </li>
                                 
                                 <li>
                                     <a href="#massdrop-config">Online Massdrop Configurator</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#ergodox-firmware">Original Ergodox Firmware</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#flashing">Flashing your Ergodox</a>
                                 </li>
                                 
                             </ul>
@@ -114,9 +118,9 @@
                     <h1>Introduction</h1>
                 
 
-            <p>If you want to contribute to this website, pull requests and github issues can be filed here: https://github.com/Ergodox-io/ergodox-io</p>
+            <p>The website is a community built and sponsered project as is the Ergodox keyboard.</p>
 
-<p>The website is a community built and sponsered project.</p>
+<p>If you want to contribute to the website, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
 
 <p>The ErgoDox keyboard is a DIY keyboard project kit originally developed by “Dox” (Dominic Beauchamp).
 The printed circuit board was designed by “bpiphany” (Fredrik Atmer).
@@ -150,22 +154,24 @@ The original 3D printable case was designed by Dox but a far more popular and le
                     <h2>Parts Needed</h2>
                 
 
-            <p>1       Pair of pcbs (one for each hand)
-1 	Teensy USB Board, Version 2.0
-1 	MCP23018-E/SP I/O expander
-76-80 	Cherry MX switches, PCB or plate-mounted (depending on your layout)
-76-80 	1N4148 diodes, SOD-123 package or DO-35 (0.3” pitch) (again, depending on your layout)
-2 	2.2k Ω resistors (red, red, red)
-3 	3mm T1 LEDs
-3 	~220 Ω resistors, or match to LED. (red, red, brown)
-5 	Short jumpers (You can also use the legs from your resistors)
-1 	0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested
-1 	USB mini B connector WM17115.
-1 	USB mini B plug with short cable (such as H2955).
-1 	USB cable male A to male mini B.
-2 	3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.
-1 	Cable with two 3.5 mm TRRS plugs.
-1	Keyboard case (more on that later)</p>
+            <ul>
+  <li>1x  Pair of pcbs (one for each hand)</li>
+  <li>1x  Teensy USB Board, Version 2.0</li>
+  <li>1x  MCP23018-E/SP I/O expander</li>
+  <li>76-80x  Cherry MX switches, PCB or plate-mounted (depending on your layout)</li>
+  <li>76-80x  1N4148 diodes, SOD-123 package or DO-35 (0.3” pitch) (again, depending on your layout)</li>
+  <li>2x  2.2k Ω resistors (red, red, red)</li>
+  <li>3x  3mm T1 LEDs</li>
+  <li>3x  ~220 Ω resistors, or match to LED. (red, red, brown)</li>
+  <li>5x  Short jumpers (You can also use the legs from your resistors)</li>
+  <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
+  <li>1x  USB mini B connector WM17115.</li>
+  <li>1x  USB mini B plug with short cable (such as H2955).</li>
+  <li>1x  USB cable male A to male mini B.</li>
+  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.</li>
+  <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
+  <li>1x  Keyboard case (more on that later)</li>
+</ul>
 
         </section>
     
@@ -187,51 +193,79 @@ The original 3D printable case was designed by Dox but a far more popular and le
                     <h2>Firmware Guide</h2>
                 
 
-            <p>There are a number of options for the firmware powering your keyboard, each with their own sets of features and options</p>
+            <p>There are a number of options for the firmware powering your keyboard, each with their own sets of features and options. Please consult the firmware of your choice for specific instructions on how to use it.</p>
 
         </section>
     
 
     
-        <section id="qmk" class="h3">
+        <section id="qmk" class="h4">
             
-                    <h3>QMK</h3>
-                
+                    <h4>QMK</h4>
+            
 
-            <p>Homepage: http://qmk.fm/</p>
+            <p><a href="http://qmk.fm/keyboards/ergodox/">Homepage</a></p>
+
+<p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
 
         </section>
     
 
     
-        <section id="ergodox-firmware" class="h3">
+        <section id="tmk" class="h4">
             
-                    <h3>Original Ergodox Firmware</h3>
-                
+                    <h4>TMK</h4>
+            
 
-            <p>See: https://github.com/benblazak/ergodox-firmware</p>
+            <p><a href="https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox">Github</a></p>
 
         </section>
     
 
     
-        <section id="tmk" class="h3">
+        <section id="massdrop-config" class="h4">
             
-                    <h3>TMK</h3>
-                
+                    <h4>Online Massdrop Configurator</h4>
+            
 
-            <p>https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox</p>
+            <p><a href="https://keyboard-configurator.massdrop.com/ext/ergodox">Homepage</a></p>
+
+<p>Massdrop has developed an online tool for generating Ergodox keymaps without the need to compile your own firmware, suggested for users who might not be comfortable compiling their own firmware.</p>
 
         </section>
     
 
     
-        <section id="massdrop-config" class="h3">
+        <section id="ergodox-firmware" class="h4">
             
-                    <h3>Online Massdrop Configurator</h3>
+                    <h4>Original Ergodox Firmware</h4>
+            
+
+            <p><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></p>
+
+<p>This firmware has fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
+
+
+        </section>
+    
+
+    
+        <section id="flashing" class="h3">
+            
+                    <h3>Flashing your Ergodox</h3>
                 
 
-            <p>https://keyboard-configurator.massdrop.com/ext/ergodox</p>
+            <p>Flashing your Ergodox is typically done with the <a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader</a></p>
+
+<p>Flashing Guide:</p>
+<ul>
+  <li>Locate your .hex file generated by your firmware of choice</li>
+  <li>Start the Teensy Loader program</li>
+  <li>Load the .hex file into it.</li>
+  <li>Press the Reset button by pressing the reset button onboard the Teensy,you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case. Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.</li>
+  <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
+</ul>
+
 
         </section>
     
@@ -242,7 +276,7 @@ The original 3D printable case was designed by Dox but a far more popular and le
                     <h1>Variants</h1>
                 
 
-            <p>Variants will go here such as the Ergodox-EZ and Infinity</p>
+            <p>The Ergodox by nature as an open source project has been forked and changed since it’s initial design, the following projects are just a selection of the more popular ones.</p>
 
         </section>
     
@@ -253,21 +287,36 @@ The original 3D printable case was designed by Dox but a far more popular and le
                     <h2>Infinity</h2>
                 
 
-            <p>Homepage: https://input.club/devices/infinity-ergodox/</p>
+            <p><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></p>
 
-<p>Firmware options:
-qmk
-https://input.club/configurator-ergodox</p>
+<p>Firmware options:</p>
+<ul>
+  <li><a href="http://qmk.fm/">QMK</a></li>
+  <li><a href="https://github.com/tmk/infinity_ergodox">TMK</a></li>
+  <li><a href="https://input.club/configurator-ergodox">Online Configurator</a></li>
+</ul>
 
-<p>case: https://github.com/kiibohd/case</p>
+<p>Cases:</p>
+<ul>
+  <li><a href="https://github.com/kiibohd/case">Offically Designed Case</a></li>
+  <li><a href="https://www.massdrop.com/buy/datamancer-infinity-ergodox-hardwood-case">Datamancer Infinity Hardwood Case</a></li>
+</ul>
 
-<p>pcb: https://github.com/kiibohd/pcb</p>
+<p>Printed Circuit Board:</p>
+<ul>
+  <li><a href="https://github.com/kiibohd/pcb">Github PCB Files</a></li>
+</ul>
 
-<p>differences between the original:
-per switch backlighting
-usb instead of trrs between the two halves
-pre-soldered smd components
-led screens on each keyboard half</p>
+<p><a href="https://input.club/devices/infinity-ergodox/infinity-ergodox-build-guide/">Build Guide</a></p>
+
+<p>Differences between the original Ergodox and the Infinity:</p>
+<ul>
+  <li>per switch backlighting</li>
+  <li>usb c replaces trrs between the two halves</li>
+  <li>pre-soldered smd components</li>
+  <li>led screens on each keyboard half</li>
+  <li>proper costar stabilizer support</li>
+</ul>
 
         </section>
     
@@ -278,14 +327,19 @@ led screens on each keyboard half</p>
                     <h2>EZ</h2>
                 
 
-            <p>homepage: https://ergodox-ez.com</p>
+            <p><a href="https://ergodox-ez.com">Homepage</a></p>
 
-<p>firmware:
-qmk
-qmk online configuration tool: http://configure.ergodox-ez.com/keyboard_layouts/new</p>
+<p>Firmware:</p>
+<ul>
+  <li><a href="http://qmk.fm/">QMK</a></li>
+  <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">QMK Online Configuration</a></li>
+</ul>
 
-<p>differences:
-preassembled</p>
+<p>Differences:</p>
+<ul>
+  <li>Preassembled</li>
+  <li>Optional tenting legs</li>
+</ul>
 
         </section>
     
