@@ -1,9 +1,10 @@
 # ergodox.io
-The new home of the Ergodox Project, an entirely open source, split, keyboard designed with ergonomics in mind.
+The new home of the Ergodox project; an entirely open source, split hand, keyboard designed with ergonomics in mind.
 
 Site is built with [Jekyll](http://jekyllrb.com/) and themed with [Docster](http://digitalmindch.github.io/docster-jekyll-theme/)
 
-Github page is served from the deploy directory where running a jekyll build will drop the files into
+##Repo Structure:
+Github page is served to Ergodox.io from the deploy directory. Jekyll build at the root of the repo will put the rendered files into this deploy directory.
 
-Once you're sure you're ready to push what's in deploy live, push with:
+## Ready to push to the live site?
 `git subtree push --prefix deploy origin gh-pages`
