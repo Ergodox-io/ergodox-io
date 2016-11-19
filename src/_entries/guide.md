@@ -5,10 +5,6 @@ is-parent: yes
 title: Guide
 number: 2000
 ---
-This guide will broken down into three separate guides, depending on where you're at in the process.
+You'll need to decide if you want to go with the standard 76 key or 80 key layout. Depending on your soldering ability and tools available, you'll also want to decide if you're going to use surface mount or through hole diodes.
 
-What you'll need to source for a full build, as well as price estimates.
-
-How to assemble the parts
-
-and how to program and flash the keyboard
+Gather your parts, solder the board, build and flash your firmware and keep practicing, the new layout can take a bit to get used to.

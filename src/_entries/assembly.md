@@ -11,8 +11,8 @@ This guide is very much a work in progress and should not be considered done, th
 [More the video type?](https://www.youtube.com/watch?v=x1irVrAl3Ts)
 
 Arrange the pcbs face down, and solder in your diodes.
-	If you're using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
-	If you are using through hole diodes, place them through the two hole immediately next to the copper pads under the square that the switch will taking up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole, rather than the circle hole. Solder in place.
+If you're using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
+If you are using through hole diodes, place them through the two hole immediately next to the copper pads under the square that the switch will taking up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole, rather than the circle hole. Solder in place.
 
 Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.
 
