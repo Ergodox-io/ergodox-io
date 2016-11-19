@@ -20,8 +20,23 @@
                 <ul id="nav">
     
     
-    <li  class=" current">
+    <li  class="parent current">
         <a href="#intro">Introduction</a>
+        
+            <ul>
+                
+                
+                    <li class="parent">
+                        <a href="#whatis">What is the Ergodox Mechanical Keyboard?</a>
+                        
+                            <ul>
+                                
+                                
+                            </ul>
+                        
+                    </li>
+                
+            </ul>
         
     </li>
     
@@ -31,13 +46,30 @@
             <ul>
                 
                 
-                    <li >
+                    <li class="parent">
                         <a href="#parts">Parts Needed</a>
+                        
+                            <ul>
+                                
+                                
+                                <li>
+                                    <a href="#pcbs">Printed Ciruit Boards</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#electronics">Small Electronics</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#case">Case</a>
+                                </li>
+                                
+                            </ul>
                         
                     </li>
                 
                     <li >
-                        <a href="#assemble">Assemble Guide</a>
+                        <a href="#assemble">Assembly Guide</a>
                         
                     </li>
                 
@@ -118,15 +150,32 @@
                     <h1>Introduction</h1>
                 
 
-            <p>The website is a community built and sponsered project as is the Ergodox keyboard.</p>
+            <p>This website is a community built and sponsered project to support and document the Ergodox Mechanical Keyboard.</p>
 
 <p>If you want to contribute to the website, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
 
-<p>The ErgoDox keyboard is a DIY keyboard project kit originally developed by “Dox” (Dominic Beauchamp).
-The printed circuit board was designed by “bpiphany” (Fredrik Atmer).
-The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
+<p>The ErgoDox keyboard is a DIY keyboard project kit originally developed by “Dox” (Dominic Beauchamp).</p>
+
+<p>The printed circuit board was designed by “bpiphany” (Fredrik Atmer).</p>
+
+<p>The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
 
 <p>Both the design and hardware files are licensed under the GNU Public License 3</p>
+
+        </section>
+    
+
+    
+        <section id="whatis" class="h2">
+            
+                    <h2>What is the Ergodox Mechanical Keyboard?</h2>
+                
+
+            <p>The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 mechanical switches (such as Cherry or Gateron) with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
+
+<p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
+
+<p>Assembling this project will require some patience, soldering ability, and access to a computer to flash the firmware onto the keyboard.</p>
 
         </section>
     
@@ -154,24 +203,87 @@ The original 3D printable case was designed by Dox but a far more popular and le
                     <h2>Parts Needed</h2>
                 
 
-            <ul>
+            <p>To build an Ergodox, several readily available components will need to be procured.</p>
+
+<ul>
   <li>1x  Pair of pcbs (one for each hand)</li>
   <li>1x  Teensy USB Board, Version 2.0</li>
   <li>1x  MCP23018-E/SP I/O expander</li>
-  <li>76-80x  Cherry MX switches, PCB or plate-mounted (depending on your layout)</li>
-  <li>76-80x  1N4148 diodes, SOD-123 package or DO-35 (0.3” pitch) (again, depending on your layout)</li>
+  <li>76-80x  Cherry MX switches: Can be either pcb or plate-mounted switches and the number will depend on your layout.</li>
+  <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
   <li>2x  2.2k Ω resistors (red, red, red)</li>
   <li>3x  3mm T1 LEDs</li>
   <li>3x  ~220 Ω resistors, or match to LED. (red, red, brown)</li>
-  <li>5x  Short jumpers (You can also use the legs from your resistors)</li>
+  <li>5x  Short jumpers (You can also use the clipped off legs from your resistors)</li>
   <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
   <li>1x  USB mini B connector WM17115.</li>
-  <li>1x  USB mini B plug with short cable (such as H2955).</li>
+  <li>1x  USB mini B plug with short cable (such as H2955)</li>
   <li>1x  USB cable male A to male mini B.</li>
   <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.</li>
   <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
-  <li>1x  Keyboard case (more on that later)</li>
+  <li>1x  Ergodox Keyboard case</li>
 </ul>
+
+
+        </section>
+    
+
+    
+        <section id="pcbs" class="h4">
+            
+                    <h4>Printed Ciruit Boards</h4>
+            
+
+            <p>The pcb files are available in a separate repo available <a href="https://github.com/Ergodox-io/ErgoDox">here</a> should you wish to modify and/or produce them.</p>
+
+<p>There are several vendors who generally stock some of the older revisions of the pcbs.</p>
+
+<ul>
+  <li>
+    <p><a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&amp;p=537">MechanicalKeyboards.com</a></p>
+  </li>
+  <li>
+    <p><a href="http://falbatech.pl/prestashop/index.php?id_product=10&amp;controller=product&amp;id_lang=2">Falbatech.pl</a></p>
+  </li>
+</ul>
+
+<p>You could also buy the updated pcb from your vendor of choice by providing them the KiCad or Gerber files in the repo listed above or purchase a batch from OSH Park</p>
+
+<ul>
+  <li><a href="https://oshpark.com/shared_projects/wWzS30He">OSH Park</a></li>
+</ul>
+
+
+        </section>
+    
+
+    
+        <section id="electronics" class="h4">
+            
+                    <h4>Small Electronics</h4>
+            
+
+            <p>Many of the small components can be easily found online at vendors such as Mouser or Digikey</p>
+
+<p><a href="http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=bbb2a7ca46i">Mouser Ergodox Component List</a></p>
+
+
+        </section>
+    
+
+    
+        <section id="case" class="h4">
+            
+                    <h4>Case</h4>
+            
+
+            <p>There are other options available but generally Ergodox cases are either 3D printed or layered, laser cut acrylic sheets.</p>
+
+<p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
+
+<p>The most popular and less expensive option is the layered acrylic design.
+<a href="https://github.com/Ergodox-io/ErgoDox/tree/master/ErgoDox%20Acrylic%20Case">Github Repo</a> assembled with m3 bolts.</p>
+
 
         </section>
     
@@ -179,14 +291,12 @@ The original 3D printable case was designed by Dox but a far more popular and le
     
         <section id="assemble" class="h2">
             
-                    <h2>Assemble Guide</h2>
+                    <h2>Assembly Guide</h2>
                 
 
             <p>This guide is very much a work in progress and should not be considered done, though the information should be accurate.</p>
 
 <p><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a></p>
-
-<p><a href="https://oshpark.com/shared_projects/wWzS30He"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a></p>
 
 <p>Arrange the pcbs face down, and solder in your diodes.
 	If you’re using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
