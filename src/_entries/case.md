@@ -5,7 +5,7 @@ parent-id: parts
 number: 2130
 title: Case
 ---
-There are other options available but generally Ergodox cases are either 3D printed or layered, laser cut acrylic sheets.
+There are other options available (such as cases carved out of wood) but generally Ergodox cases are either 3D printed, or  layered, acrylic sheets.
 
 The 3D printable case options are available in our [repo](https://github.com/Ergodox-io/ergodox-case) and have been uploaded to [Shapeways](http://www.shapeways.com/shops/Dox)
 
