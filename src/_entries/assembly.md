@@ -2,15 +2,13 @@
 sectionid: assemble
 sectionclass: h2
 parent-id: guide
-title: Assemble Guide
+title: Assembly Guide
 number: 2200
 ---
 
 This guide is very much a work in progress and should not be considered done, though the information should be accurate.
 
 [More the video type?](https://www.youtube.com/watch?v=x1irVrAl3Ts)
-
-<a href="https://oshpark.com/shared_projects/wWzS30He"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></a>
 
 Arrange the pcbs face down, and solder in your diodes.
 	If you're using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
