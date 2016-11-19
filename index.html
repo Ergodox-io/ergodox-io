@@ -171,11 +171,13 @@
                     <h2>What is the Ergodox Mechanical Keyboard?</h2>
                 
 
-            <p>The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 mechanical switches (such as Cherry or Gateron) with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
+            <p>The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in an ortholinear (rather than staggered) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
 
 <p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
 
 <p>Assembling this project will require some patience, soldering ability, and access to a computer to flash the firmware onto the keyboard.</p>
+
+<p><img src="../img/ErgoDox-original.png" alt="Ergodox" /></p>
 
         </section>
     
@@ -186,13 +188,9 @@
                     <h1>Guide</h1>
                 
 
-            <p>This guide will broken down into three separate guides, depending on where you’re at in the process.</p>
+            <p>You’ll need to decide if you want to go with the standard 76 key or 80 key layout. Depending on your soldering ability and tools available, you’ll also want to decide if you’re going to use surface mount or through hole diodes.</p>
 
-<p>What you’ll need to source for a full build, as well as price estimates.</p>
-
-<p>How to assemble the parts</p>
-
-<p>and how to program and flash the keyboard</p>
+<p>Gather your parts, solder the board, build and flash your firmware and keep practicing, the new layout can take a bit to get used to.</p>
 
         </section>
     
@@ -205,11 +203,21 @@
 
             <p>To build an Ergodox, several readily available components will need to be procured.</p>
 
+<p>Some notes on the electronics:</p>
+
+<p>The switches can be either pcb or plate mounted.</p>
+
+<p>Both through hole or surface mount diodes can be used.</p>
+
+<p>If you choose not to use typical 3mm red leds in your Ergodox, be sure that you replace the 220 Ω resistors with ones that match your leds.</p>
+
+<p>Full Parts list:</p>
+
 <ul>
   <li>1x  Pair of pcbs (one for each hand)</li>
   <li>1x  Teensy USB Board, Version 2.0</li>
   <li>1x  MCP23018-E/SP I/O expander</li>
-  <li>76-80x  Cherry MX switches: Can be either pcb or plate-mounted switches and the number will depend on your layout.</li>
+  <li>76-80x  Cherry MX switches, number will depend on your layout.</li>
   <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
   <li>2x  2.2k Ω resistors (red, red, red)</li>
   <li>3x  3mm T1 LEDs</li>
@@ -223,7 +231,6 @@
   <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
   <li>1x  Ergodox Keyboard case</li>
 </ul>
-
 
         </section>
     
@@ -277,7 +284,7 @@
                     <h4>Case</h4>
             
 
-            <p>There are other options available but generally Ergodox cases are either 3D printed or layered, laser cut acrylic sheets.</p>
+            <p>There are other options available (such as cases carved out of wood) but generally Ergodox cases are either 3D printed, or  layered, acrylic sheets.</p>
 
 <p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
 
@@ -299,8 +306,8 @@
 <p><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a></p>
 
 <p>Arrange the pcbs face down, and solder in your diodes.
-	If you’re using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
-	If you are using through hole diodes, place them through the two hole immediately next to the copper pads under the square that the switch will taking up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole, rather than the circle hole. Solder in place.</p>
+If you’re using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
+If you are using through hole diodes, place them through the two hole immediately next to the copper pads under the square that the switch will taking up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole, rather than the circle hole. Solder in place.</p>
 
 <p>Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.</p>
 
@@ -488,12 +495,15 @@
                     <h2>EZ</h2>
                 
 
-            <p><a href="https://ergodox-ez.com">Homepage</a></p>
+            <p>Another popular fork of the Ergodox is a pre-built version with a case that supports legs that will allow you to ‘tent’ or angle the Ergodox-EZ to a comfortable typing angle.</p>
+
+<p><a href="https://ergodox-ez.com">Homepage</a></p>
 
 <p>Firmware:</p>
 <ul>
   <li><a href="http://qmk.fm/">QMK</a></li>
   <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">QMK Online Configuration</a></li>
+  <li><a href="https://github.com/ErgoDox-EZ/reactor/blob/master/lib/firmware/TMK_README.md">TMK</a></li>
 </ul>
 
 <p>Differences:</p>
