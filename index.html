@@ -286,11 +286,18 @@
 
             <p>There are other options available (such as cases carved out of wood) but generally Ergodox cases are either 3D printed, or  layered, acrylic sheets.</p>
 
-<p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
-
-<p>The most popular and less expensive option is the layered acrylic design.
+<ul>
+  <li>
+    <p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
+  </li>
+  <li>
+    <p>The most popular and less expensive option is the layered acrylic design.
 <a href="https://github.com/Ergodox-io/ErgoDox/tree/master/ErgoDox%20Acrylic%20Case">Github Repo</a> assembled with m3 bolts.</p>
-
+    <ul>
+      <li>There is also a 3D printable <a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a> in our repo. This will prop up the Ergodox at a very natural and comfortable angle.</li>
+    </ul>
+  </li>
+</ul>
 
         </section>
     
@@ -301,56 +308,89 @@
                     <h2>Assembly Guide</h2>
                 
 
-            <p>This guide is very much a work in progress and should not be considered done, though the information should be accurate.</p>
+            <p>Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides.</p>
 
-<p><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a></p>
+<ol>
+  <li>Arrange the pcbs face down, and solder in your diodes to this side.
+    <ul>
+      <li>1a. If you’re using the <em>surface mount</em> diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.</li>
+      <li>1b. If you are using <em>through hole</em> diodes, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.</p>
+  </li>
+  <li>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for your leds) onto the right hand where labled on the pcb and solder into place.
+    <ul>
+      <li>Note: Keep the legs you clip off the resistors, you can use them in a later step when we install the TRRS connections.</li>
+    </ul>
+  </li>
+  <li>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place.
+    <ul>
+      <li>Note: There are three holes without copper pads and do not need to be soldered.</li>
+    </ul>
+  </li>
+  <li><em>(Optional but suggested step)</em> On the left hand pcb, insert your ceramic capacitor into these (TODO: ADD LOCATION PHOTO OR DIAGRAM) holes and solder in place.
+    <ul>
+      <li>5a. Bridge with solder, the two copper pads immediately next to the ceramic capacitor.</li>
+    </ul>
+  </li>
+  <li>Insert either jumper wire or the legs clipped from the resistors bent into a U, into both of the the white pairs of holes on either side of where the 3.5mm connections will go and solder in place.
+    <ul>
+      <li>6a. Place 3.5mm connection, solder the 4 connection points.</li>
+      <li>6b. Repeat both the jumper and 3.5mm connectors on the other hand.</li>
+    </ul>
+  </li>
+  <li>Install the male jumper pins to the underside of your Teensy with the button face up and solder the pins to the top side of the Teensy.
+    <ul>
+      <li>Note: If your Teensy already has jumpers already installed, skip this step.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Insert your Teensy jumper legs onto the right hand side with the usb facing the resistors and solder in place.</p>
+  </li>
+  <li>Cut one of the mini usb cables about 1.5” from the connector.
+    <ul>
+      <li>9a. Strip off all of the sheathing from the cable, exposing the 4 wires.</li>
+      <li>9b. Place the following wires into their respective holes:</li>
+      <li>White: D-</li>
+      <li>Red:   5v</li>
+      <li>Green: D+</li>
+      <li>Black: GND</li>
+      <li>9c. Solder wires to the pcb.</li>
+    </ul>
+  </li>
+  <li>
+    <p>On the right hand, insert the mini usb connector into the holes marked on the pcb and solder into place.</p>
+  </li>
+  <li>Ready the case of your choosing, depending on which design you picked.
+    <ul>
+      <li>11a. If you are using the layered acrylic case design, peel off the protective film off the acrylic pieces.
+        <ul>
+          <li>Place the pcb under the 3rd acrylic layer and insert the switches into the acylic plate making sure that both pins from the switch are extending out through the pcb.</li>
+        </ul>
+      </li>
+      <li>11b. If you are using the 3D printed or other 2 piece case design
+        <ul>
+          <li>Place the pcb under the top section and push the switches into the case making sure that both pins from the switch are extending out through the pcb.</li>
+        </ul>
+      </li>
+      <li>Solder switches in place.</li>
+    </ul>
+  </li>
+  <li>On the right hand, insert your three leds through the housing of the three switches and solder into place.
+    <ul>
+      <li>Note: LEDs have polarity so be sure that your positive leg of your leds goes into the (face up) square hole.</li>
+    </ul>
+  </li>
+  <li>Finish assembling your case, plug in your TRRS cable between the two halves and proceed to building and flashing your firmware.</li>
+</ol>
 
-<p>Arrange the pcbs face down, and solder in your diodes.
-If you’re using the SMD diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder in place.
-If you are using through hole diodes, place them through the two hole immediately next to the copper pads under the square that the switch will taking up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole, rather than the circle hole. Solder in place.</p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</li>
+  <li><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</li>
+</ul>
 
-<p>Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.</p>
-
-<p>Insert your 2.2k ohm resistors and your 220 ohm (or whatever resistors chosen appropriate for your leds) onto the right hand where labled on the pcb. Solder in place. It’s suggested to keep the clipped off legs of your resistors, we’ll use them in a later step when we install the TRRS connections.</p>
-
-<p>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place, there are three holes without copper pads and do not need to be soldered.</p>
-
-<p>(Optional but suggested step) On the left hand pcb, insert your ceramic capacitor into these (TODO: ADD LOCATION PHOTO OR DIAGRAM) holes. Solder in place.
-	Bridge with solder, the two copper pads immediately next to the ceramic capacitor.</p>
-
-<p>Insert either jumper wire or the legs from the resistors bent into a U, into both of the the white pairs of holes on either side of where the 3.5mm connections will go. Solder in place.
-	Place 3.5mm connection, solder the 4 connection points.
-	Repeat both the jumper and 3.5mm connectors on the other hand.</p>
-
-<p>If your Teensy already has jumpers already installed, skip this step.
-	Install the jumper to the bottom side of your Teensy with the button face up.</p>
-
-<p>Insert your Teensy jumper legs onto the right hand side with the usb facing the resistors. Solder in place.</p>
-
-<p>Cut one of the mini usb cables about 1.5” from the connector.
-	Strip off all of the sheathing from the cable, exposing the 4 wires.
-	Place the following wires into their respective holes.
-		White: D-
-		Red:   5v
-		Green: D+
-		Black: GND
-	Solder in place.</p>
-
-<p>On the right hand, insert the mini usb connector into the holes marked and solder into place.</p>
-
-<p>If you are using lister’s case design, peel off the protective film off the acrylic pieces.
-	Place the pcb under the 3rd acrylic piece and insert the switches into the acylic making sure that both pins from the switch are extending out through the pcb.
-	Solder switches in place.</p>
-
-<p>If you are using the 3D printed case:
-	Place the pcb under the top section and push the switches into the case making sure that both pins from the switch are extending out through the pcb.
-	Solder switches in place.</p>
-
-<p>On the right hand, insert your three leds through the housing of the three switches.
-	LEDs have polarity so be sure that your positive leg of your leds goes into the (face up) square hole.
-	Solder the three leds in place.</p>
-
-<p>Finish assembling your case, plug in your TRRS cable between the two halves and proceed to building and flashing your firmware.</p>
 
         </section>
     
@@ -423,16 +463,19 @@ If you are using through hole diodes, place them through the two hole immediatel
                     <h3>Flashing your Ergodox</h3>
                 
 
-            <p>Flashing your Ergodox is typically done with the <a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader</a></p>
+            <p>Flashing your Ergodox is typically done with the <a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader</a>, and will be needed for the following guide.</p>
 
-<p>Flashing Guide:</p>
-<ul>
+<ol>
   <li>Locate your .hex file generated by your firmware of choice</li>
   <li>Start the Teensy Loader program</li>
   <li>Load the .hex file into it.</li>
-  <li>Press the Reset button by pressing the reset button onboard the Teensy,you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case. Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.</li>
+  <li>Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
+    <ul>
+      <li>Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.</li>
+    </ul>
+  </li>
   <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
-</ul>
+</ol>
 
 
         </section>
@@ -455,13 +498,15 @@ If you are using through hole diodes, place them through the two hole immediatel
                     <h2>Infinity</h2>
                 
 
-            <p><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></p>
+            <p>Quickly becoming the most popular variant of the Ergodox and developed by Input.club, the Ergodox Infinity has an LCD screen built into each half with a few other updates to the original design.</p>
+
+<p><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></p>
 
 <p>Firmware options:</p>
 <ul>
   <li><a href="http://qmk.fm/">QMK</a></li>
   <li><a href="https://github.com/tmk/infinity_ergodox">TMK</a></li>
-  <li><a href="https://input.club/configurator-ergodox">Online Configurator</a></li>
+  <li><a href="https://input.club/configurator-ergodox">KLL Online Configurator</a></li>
 </ul>
 
 <p>Cases:</p>
@@ -484,6 +529,7 @@ If you are using through hole diodes, place them through the two hole immediatel
   <li>pre-soldered smd components</li>
   <li>led screens on each keyboard half</li>
   <li>proper costar stabilizer support</li>
+  <li>proper ALPS support</li>
 </ul>
 
         </section>
