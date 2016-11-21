@@ -27,7 +27,7 @@ Full Parts list:
 - 3x  3mm T1 LEDs 
 - 3x  ~220 Ω resistors, or match to LED. (red, red, brown)
 - 5x  Short jumpers (You can also use the clipped off legs from your resistors)
-- 1x  0.1 µF ceramic capacitor (marked "104" for 10*104 picofarad). Not strictly necessary but suggested
+- 1x  0.1 µF ceramic capacitor (marked "104" for 10\*104 picofarad). Not strictly necessary but suggested
 - 1x  USB mini B connector WM17115.
 - 1x  USB mini B plug with short cable (such as H2955)
 - 1x  USB cable male A to male mini B.
