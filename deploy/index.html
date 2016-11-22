@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width">
 <meta name="author" content="">
 <link rel="stylesheet" href="css/main.css">
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
+
     </head>
 
     <body>
@@ -211,11 +212,14 @@
 
 <p>If you choose not to use typical 3mm red leds in your Ergodox, be sure that you replace the 220 Ω resistors with ones that match your leds.</p>
 
+<p>PJRC sells a Teensy 2.0 both with and without header pins pre-installed. If you use a Teensy without the header pins pre-installed, you will need to obtain and install them.</p>
+
 <p>Full Parts list:</p>
 
 <ul>
   <li>1x  Pair of pcbs (one for each hand)</li>
   <li>1x  Teensy USB Board, Version 2.0</li>
+  <li>24x Teensy header pins, male (unless pre-installed)</li>
   <li>1x  MCP23018-E/SP I/O expander</li>
   <li>76-80x  Cherry MX switches, number will depend on your layout.</li>
   <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
@@ -308,13 +312,14 @@
                     <h2>Assembly Guide</h2>
                 
 
-            <p>Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides.</p>
+            <p>Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides including a photo build guide and a video build log.</p>
 
 <ol>
   <li>Arrange the pcbs face down, and solder in your diodes to this side.
     <ul>
       <li>1a. If you’re using the <em>surface mount</em> diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.</li>
       <li>1b. If you are using <em>through hole</em> diodes, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
+      <li><img src="../img/diode.jpeg" alt="diode" /></li>
     </ul>
   </li>
   <li>
@@ -330,9 +335,10 @@
       <li>Note: There are three holes without copper pads and do not need to be soldered.</li>
     </ul>
   </li>
-  <li><em>(Optional but suggested step)</em> On the left hand pcb, insert your ceramic capacitor into these (TODO: ADD LOCATION PHOTO OR DIAGRAM) holes and solder in place.
+  <li><em>(Optional but suggested step)</em> On the left hand pcb, insert your ceramic capacitor into the first and third holes of the top row and solder in place.
     <ul>
-      <li>5a. Bridge with solder, the two copper pads immediately next to the ceramic capacitor.</li>
+      <li>5a. Bridge with solder the two copper pads immediately to the left of the ceramic capacitor.</li>
+      <li><img src="../img/ceramic.jpeg" alt="capacitor" /></li>
     </ul>
   </li>
   <li>Insert either jumper wire or the legs clipped from the resistors bent into a U, into both of the the white pairs of holes on either side of where the 3.5mm connections will go and solder in place.
@@ -388,6 +394,7 @@
 
 <ul>
   <li><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</li>
+  <li><a href="http://imgur.com/a/3riAB">Imgur Build Log</a>: user robotmaxtron shares his build log (including mistakes).</li>
   <li><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</li>
 </ul>
 
