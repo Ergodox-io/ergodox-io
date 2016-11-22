@@ -16,10 +16,13 @@ Both through hole or surface mount diodes can be used.
 
 If you choose not to use typical 3mm red leds in your Ergodox, be sure that you replace the 220 Ω resistors with ones that match your leds.
 
+PJRC sells a Teensy 2.0 both with and without header pins pre-installed. If you use a Teensy without the header pins pre-installed, you will need to obtain and install them.
+
 Full Parts list:
 
 - 1x  Pair of pcbs (one for each hand)
-- 1x  Teensy USB Board, Version 2.0
+- 1x  Teensy USB Board, Version 2.0 
+- 24x Teensy header pins, male (unless pre-installed)
 - 1x  MCP23018-E/SP I/O expander
 - 76-80x  Cherry MX switches, number will depend on your layout.
 - 76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3" pitch) (through hole) (again, the amount needed will depend on your layout)
