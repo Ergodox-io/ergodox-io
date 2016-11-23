@@ -28,11 +28,13 @@ Now the section where the soldering and real assembly happens, at the end of thi
 6. Insert either jumper wire or the legs clipped from the resistors bent into a U, into both of the the white pairs of holes on either side of where the 3.5mm connections will go and solder in place.
  * 6a. Place 3.5mm connection, solder the 4 connection points.
  * 6b. Repeat both the jumper and 3.5mm connectors on the other hand.
+ * ![trrs](../img/trrs.jpeg)
 
 7. Install the male jumper pins to the underside of your Teensy with the button face up and solder the pins to the top side of the Teensy.
  * Note: If your Teensy already has jumpers already installed, skip this step.
 
 8. Insert your Teensy jumper legs onto the right hand side with the usb facing the resistors and solder in place.
+ * ![teensy](../img/teensy.jpeg)
 
 9. Cut one of the mini usb cables about 1.5" from the connector.
  * 9a. Strip off all of the sheathing from the cable, exposing the 4 wires.
@@ -42,8 +44,10 @@ Now the section where the soldering and real assembly happens, at the end of thi
   * Green: D+
   * Black: GND
  * 9c. Solder wires to the pcb.
+ * ![wiring](../img/wiring.jpeg)
 
 10. On the right hand, insert the mini usb connector into the holes marked on the pcb and solder into place.
+ * ![usb](../img/usb.jpeg)
 
 11. Ready the case of your choosing, depending on which design you picked.
  * 11a. If you are using the layered acrylic case design, peel off the protective film off the acrylic pieces. 
