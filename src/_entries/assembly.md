@@ -11,7 +11,7 @@ Now the section where the soldering and real assembly happens, at the end of thi
 1. Arrange the pcbs face down, and solder in your diodes to this side.
   * 1a. If you're using the _surface mount_ diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.
   * 1b. If you are using _through hole_ diodes, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.
-  * ![diode](../img/diode.jpeg)
+  * ![diode](../img/diode-min.jpg)
 
 2. Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.
 
@@ -23,18 +23,18 @@ Now the section where the soldering and real assembly happens, at the end of thi
 
 5. _(Optional but suggested step)_ On the left hand pcb, insert your ceramic capacitor into the first and third holes of the top row and solder in place.
  * 5a. Bridge with solder the two copper pads immediately to the left of the ceramic capacitor.
- * ![capacitor](../img/ceramic.jpeg)
+ * ![capacitor](../img/ceramic-min.jpg)
 
 6. Insert either jumper wire or the legs clipped from the resistors bent into a U, into both of the the white pairs of holes on either side of where the 3.5mm connections will go and solder in place.
  * 6a. Place 3.5mm connection, solder the 4 connection points.
  * 6b. Repeat both the jumper and 3.5mm connectors on the other hand.
- * ![trrs](../img/trrs.jpeg)
+ * ![trrs](../img/trrs-min.jpg)
 
 7. Install the male jumper pins to the underside of your Teensy with the button face up and solder the pins to the top side of the Teensy.
  * Note: If your Teensy already has jumpers already installed, skip this step.
 
 8. Insert your Teensy jumper legs onto the right hand side with the usb facing the resistors and solder in place.
- * ![teensy](../img/teensy.jpeg)
+ * ![teensy](../img/teensy-min.jpg)
 
 9. Cut one of the mini usb cables about 1.5" from the connector.
  * 9a. Strip off all of the sheathing from the cable, exposing the 4 wires.
@@ -44,10 +44,10 @@ Now the section where the soldering and real assembly happens, at the end of thi
   * Green: D+
   * Black: GND
  * 9c. Solder wires to the pcb.
- * ![wiring](../img/wiring.jpeg)
+ * ![wiring](../img/wiring-min.jpg)
 
 10. On the right hand, insert the mini usb connector into the holes marked on the pcb and solder into place.
- * ![usb](../img/usb.jpeg)
+ * ![usb](../img/usb-min.jpg)
 
 11. Ready the case of your choosing, depending on which design you picked.
  * 11a. If you are using the layered acrylic case design, peel off the protective film off the acrylic pieces. 
