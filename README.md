@@ -1,4 +1,4 @@
-# ergodox.io
+# [ergodox.io](http://www.ergodox.io)
 The new home of the Ergodox project; an entirely open source, split hand, keyboard designed with ergonomics in mind.
 
 Site is built with [Jekyll](http://jekyllrb.com/) and themed with [Docster](http://digitalmindch.github.io/docster-jekyll-theme/)
