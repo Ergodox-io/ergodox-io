@@ -1,6 +1,6 @@
 body{
     font:{
-        family: $roboto;
+	family: $overpass;
         weight: $light;
         size: 22px;
     }
@@ -193,7 +193,7 @@ img{
 }
 
 code{
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Overpass', 'Overpass-mono', monospace;
 }
 
 .video_container{

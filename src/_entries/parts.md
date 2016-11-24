@@ -12,7 +12,7 @@ Some notes on the electronics:
 
 The switches can be either pcb or plate mounted.
 
-Both through hole or surface mount diodes can be used.
+Either through hole or surface mount diodes can be used as the pcb supports both.
 
 If you choose not to use typical 3mm red leds in your Ergodox, be sure that you replace the 220 Ω resistors with ones that match your leds.
 
