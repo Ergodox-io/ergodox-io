@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width">
 <meta name="author" content="">
 <link rel="stylesheet" href="css/main.css">
-<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
+<link href="https://overpass-30e2.kxcdn.com/overpass-mono.css" rel="stylesheet" />
 
     </head>
 
@@ -208,33 +208,14 @@
 
 <p>The switches can be either pcb or plate mounted.</p>
 
-<p>Both through hole or surface mount diodes can be used.</p>
+<p>Either through hole or surface mount diodes can be used as the pcb supports both.</p>
 
 <p>If you choose not to use typical 3mm red leds in your Ergodox, be sure that you replace the 220 Ω resistors with ones that match your leds.</p>
 
 <p>PJRC sells a Teensy 2.0 both with and without header pins pre-installed. If you use a Teensy without the header pins pre-installed, you will need to obtain and install them.</p>
 
-<p>Full Parts list:</p>
+<p>Many of the small components can be easily found online at vendors such as Mouser or Digikey.</p>
 
-<ul>
-  <li>1x  Pair of pcbs (one for each hand)</li>
-  <li>1x  Teensy USB Board, Version 2.0</li>
-  <li>24x Teensy header pins, male (unless pre-installed)</li>
-  <li>1x  MCP23018-E/SP I/O expander</li>
-  <li>76-80x  Cherry MX switches, number will depend on your layout.</li>
-  <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
-  <li>2x  2.2k Ω resistors (red, red, red)</li>
-  <li>3x  3mm T1 LEDs</li>
-  <li>3x  ~220 Ω resistors, or match to LED. (red, red, brown)</li>
-  <li>5x  Short jumpers (You can also use the clipped off legs from your resistors)</li>
-  <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
-  <li>1x  USB mini B connector WM17115.</li>
-  <li>1x  USB mini B plug with short cable (such as H2955)</li>
-  <li>1x  USB cable male A to male mini B.</li>
-  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.</li>
-  <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
-  <li>1x  Ergodox Keyboard case</li>
-</ul>
 
         </section>
     
@@ -274,9 +255,27 @@
                     <h4>Small Electronics</h4>
             
 
-            <p>Many of the small components can be easily found online at vendors such as Mouser or Digikey</p>
+            <p>Full Parts list:</p>
 
-<p><a href="http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=bbb2a7ca46i">Mouser Ergodox Component List</a></p>
+<ul>
+  <li>1x  Pair of pcbs (one for each hand)</li>
+  <li>1x  Teensy USB Board, Version 2.0</li>
+  <li>24x Teensy header pins, male (unless pre-installed)</li>
+  <li>1x  MCP23018-E/SP I/O expander</li>
+  <li>76-80x  Cherry MX switches, number will depend on your layout.</li>
+  <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
+  <li>2x  2.2k Ω resistors (red, red, red)</li>
+  <li>3x  3mm T1 LEDs</li>
+  <li>3x  ~220 Ω resistors, or match to LED. (red, red, brown)</li>
+  <li>5x  Short jumpers (You can also use the clipped off legs from your resistors)</li>
+  <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
+  <li>1x  USB mini B connector WM17115.</li>
+  <li>1x  USB mini B plug with short cable (such as H2955)</li>
+  <li>1x  USB cable male A to male mini B.</li>
+  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.</li>
+  <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
+  <li>1x  Ergodox Keyboard case</li>
+</ul>
 
 
         </section>
@@ -428,6 +427,7 @@
             <p><a href="http://qmk.fm/keyboards/ergodox/">Homepage</a></p>
 
 <p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
+
 
         </section>
     
