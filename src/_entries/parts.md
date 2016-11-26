@@ -10,7 +10,7 @@ To build an Ergodox, several readily available components will need to be procur
 
 Some notes on the electronics:
 
-The switches can be either pcb or plate mounted.
+The Cherry MX style switches can be either pcb or plate mounted.
 
 Either through hole or surface mount diodes can be used as the pcb supports both.
 

@@ -5,14 +5,10 @@ title: Introduction
 is-parent: yes
 number: 1000
 ---
-This website is a community built and sponsered project to support and document the Ergodox Mechanical Keyboard.
+The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It's completely programmable and can be flashed with several different firmware options.
 
-If you want to contribute to the website, pull requests, bugs (via Github issues) can be filed at our [Github](https://github.com/Ergodox-io/ergodox-io)
+The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.
 
-The ErgoDox keyboard is a DIY keyboard project originally developed by "Dox" (Dominic Beauchamp).
+Assembling this project will require some patience, soldering ability, and access to a computer to flash the firmware onto the keyboard.
 
-The printed circuit board was designed by "bpiphany" (Fredrik Atmer).
-
-The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.
-
-Both the design and hardware files are licensed under the GNU Public License 3
+![Ergodox](../img/ErgoDox-original-min.png)

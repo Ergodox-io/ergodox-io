@@ -5,6 +5,12 @@ is-parent: yes
 title: Guide
 number: 2000
 ---
-You'll need to decide if you want to go with the standard 76 key or 80 key layout. Depending on your soldering ability and tools available, you'll also want to decide if you're going to use surface mount or through hole diodes.
+A few things will need to be decided in advance before choosing parts or cases. The ErgoDox supports either the standard 76 key or 80 key layout.
 
-Gather your parts, solder the board, build and flash your firmware and keep practicing, the new layout can take a bit to get used to.
+This project will require some tools such as a soldering iron, flush cutters, wire strippers, solder, and possibly a screwdriver.
+
+The build guide also assumes that you already know how to solder, if you do not know how to solder or want a refresher [EEVBlog](http://www.eevblog.com) has uploaded a great series on YouTube.
+1. [Part 1](https://www.youtube.com/watch?v=J5Sb21qbpEQ)
+2. [Part 2](https://www.youtube.com/watch?v=fYz5nIHH0iY)
+3. [Part 3](https://www.youtube.com/watch?v=b9FC9fAlfQE)
+
