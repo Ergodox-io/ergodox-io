@@ -28,7 +28,7 @@
                 
                 
                     <li class="parent">
-                        <a href="#whatis">What is the Ergodox Mechanical Keyboard?</a>
+                        <a href="#credits">Who built this?</a>
                         
                             <ul>
                                 
@@ -151,27 +151,6 @@
                     <h1>Introduction</h1>
                 
 
-            <p>This website is a community built and sponsered project to support and document the Ergodox Mechanical Keyboard.</p>
-
-<p>If you want to contribute to the website, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
-
-<p>The ErgoDox keyboard is a DIY keyboard project originally developed by “Dox” (Dominic Beauchamp).</p>
-
-<p>The printed circuit board was designed by “bpiphany” (Fredrik Atmer).</p>
-
-<p>The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
-
-<p>Both the design and hardware files are licensed under the GNU Public License 3</p>
-
-        </section>
-    
-
-    
-        <section id="whatis" class="h2">
-            
-                    <h2>What is the Ergodox Mechanical Keyboard?</h2>
-                
-
             <p>The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
 
 <p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
@@ -184,14 +163,44 @@
     
 
     
+        <section id="credits" class="h2">
+            
+                    <h2>Who built this?</h2>
+                
+
+            <p>The ErgoDox keyboard is a DIY keyboard project originally developed by “Dox” (Dominic Beauchamp) inspired by the <a href="https://www.key64.org">Key64 Keyboard</a>.</p>
+
+<p>The printed circuit board was designed by “bpiphany” (Fredrik Atmer).</p>
+
+<p>The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
+
+<p>This website was built by robotmaxtron with some help from the community as a way to centralize the documentation.
+If you want to contribute to the project, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
+
+<p>Both the keyboard design and hardware files are licensed under the GNU Public License 3</p>
+
+<p><a href="https://geekhack.org/index.php?topic=22780.0">GeekHack Thread</a></p>
+
+        </section>
+    
+
+    
         <section id="guide" class="h1">
             
                     <h1>Guide</h1>
                 
 
-            <p>You’ll need to decide if you want to go with the standard 76 key or 80 key layout. Depending on your soldering ability and tools available, you’ll also want to decide if you’re going to use surface mount or through hole diodes.</p>
+            <p>A few things will need to be decided in advance before choosing parts or cases. The ErgoDox supports either the standard 76 key or 80 key layout.</p>
 
-<p>Gather your parts, solder the board, build and flash your firmware and keep practicing, the new layout can take a bit to get used to.</p>
+<p>This project will require some tools such as a soldering iron, flush cutters, wire strippers, solder, and possibly a screwdriver.</p>
+
+<p>The build guide also assumes that you already know how to solder, if you do not know how to solder or want a refresher <a href="http://www.eevblog.com">EEVBlog</a> has uploaded a great series on YouTube.</p>
+<ol>
+  <li><a href="https://www.youtube.com/watch?v=J5Sb21qbpEQ">Part 1</a></li>
+  <li><a href="https://www.youtube.com/watch?v=fYz5nIHH0iY">Part 2</a></li>
+  <li><a href="https://www.youtube.com/watch?v=b9FC9fAlfQE">Part 3</a></li>
+</ol>
+
 
         </section>
     
@@ -206,7 +215,7 @@
 
 <p>Some notes on the electronics:</p>
 
-<p>The switches can be either pcb or plate mounted.</p>
+<p>The Cherry MX style switches can be either pcb or plate mounted.</p>
 
 <p>Either through hole or surface mount diodes can be used as the pcb supports both.</p>
 
@@ -262,18 +271,18 @@
   <li>1x  Teensy USB Board, Version 2.0</li>
   <li>24x Teensy header pins, male (unless pre-installed)</li>
   <li>1x  MCP23018-E/SP I/O expander</li>
-  <li>76-80x  Cherry MX switches, number will depend on your layout.</li>
+  <li>76-80x  Cherry MX switches, (depending on your layout)</li>
   <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
   <li>2x  2.2k Ω resistors (red, red, red)</li>
   <li>3x  3mm T1 LEDs</li>
-  <li>3x  ~220 Ω resistors, or match to LED. (red, red, brown)</li>
+  <li>3x  220 Ω resistors, or match to LED. (red, red, brown)</li>
   <li>5x  Short jumpers (You can also use the clipped off legs from your resistors)</li>
   <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
-  <li>1x  USB mini B connector WM17115.</li>
+  <li>1x  USB mini B connector WM17115</li>
   <li>1x  USB mini B plug with short cable (such as H2955)</li>
-  <li>1x  USB cable male A to male mini B.</li>
-  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off.</li>
-  <li>1x  Cable with two 3.5 mm TRRS plugs.</li>
+  <li>1x  USB cable male A to male mini B</li>
+  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off</li>
+  <li>1x  Cable with two 3.5 mm TRRS plugs</li>
   <li>1x  Ergodox Keyboard case</li>
 </ul>
 
@@ -287,7 +296,7 @@
                     <h4>Case</h4>
             
 
-            <p>There are other options available (such as cases carved out of wood) but generally Ergodox cases are either 3D printed, or  layered, acrylic sheets.</p>
+            <p>While there are many options of materials available (such as cases carved out of wood)generally ErgoDox cases are either 3D printed or layered acrylic sheets.</p>
 
 <ul>
   <li>
@@ -297,7 +306,7 @@
     <p>The most popular and less expensive option is the layered acrylic design.
 <a href="https://github.com/Ergodox-io/ErgoDox/tree/master/ErgoDox%20Acrylic%20Case">Github Repo</a> assembled with m3 bolts.</p>
     <ul>
-      <li>There is also a 3D printable <a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a> in our repo. This will prop up the Ergodox at a very natural and comfortable angle.</li>
+      <li>There is also a 3D printable <a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a> in our repo. This will prop up the ErgoDox at a very natural and comfortable angle.</li>
     </ul>
   </li>
 </ul>
@@ -414,6 +423,7 @@
                 
 
             <p>There are a number of options for the firmware powering your keyboard, each with their own sets of features and options. Please consult the firmware of your choice for specific instructions on how to use it.</p>
+
 
         </section>
     
