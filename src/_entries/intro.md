@@ -1,7 +1,7 @@
 ---
 sectionid: intro
 sectionclass: h1
-title: Introduction
+title: The Keyboard 
 is-parent: yes
 number: 1000
 ---
