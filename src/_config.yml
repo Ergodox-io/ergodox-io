@@ -1,5 +1,7 @@
 full_rebuild: true
-name: Ergodox Mechanical Keyboard 
+name: ErgoDox Mechanical Keyboard 
+description: Documentation and build guide for the ErgoDox mechanical keyboard
+url: https://www.ergodox.io
 encoding: utf-8
 defaults:
   -
@@ -14,6 +16,9 @@ collections:
 sass:
   sass_dir: _sass
   style: :compressed
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude: [
 .git,
 .gitignore,

@@ -9,3 +9,4 @@ title: QMK
 
 A build guide for compiling and customizing your firmware is best found in the repo's [readme](https://github.com/jackhumbert/qmk_firmware)
 
+Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.
