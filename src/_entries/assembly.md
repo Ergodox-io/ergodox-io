@@ -12,7 +12,7 @@ Now the section where the soldering and real assembly happens, at the end of thi
   * 1a. If you're using the _surface mount_ diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.
   * 1b. If you are using _through hole_ diodes, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.
   * ![diode](../img/diode-min.jpg)
-
+  * Note: The additional holes surrounding the switch are all for diodes. Only one diode per switch is needed.
 2. Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.
 
 3. Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for your leds) onto the right hand where labled on the pcb and solder into place. 
