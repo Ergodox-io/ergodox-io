@@ -3,7 +3,7 @@ sectionid: pcbs
 sectionclass: h4
 parent-id: parts 
 number: 2110
-title: Printed Ciruit Boards
+title: Printed Circuit Boards
 ---
 The pcb files are available in a separate repo available [here](https://github.com/Ergodox-io/ErgoDox) should you wish to modify and/or produce them.
 
