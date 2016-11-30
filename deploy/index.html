@@ -79,7 +79,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="#case">Case</a>
+                                    <a href="#case">Case & Keycaps</a>
                                 </li>
                                 
                             </ul>
@@ -168,7 +168,7 @@
                     <h1>The Keyboard</h1>
                 
 
-            <p>The Ergodox is a do it yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
+            <p>The Ergodox is a do-it-yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
 
 <p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
 
@@ -251,21 +251,18 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
 
             <p>The pcb files are available in a separate repo available <a href="https://github.com/Ergodox-io/ErgoDox">here</a> should you wish to modify and/or produce them.</p>
 
-<p>There are several vendors who generally stock some of the older revisions of the pcbs.</p>
-
 <ul>
-  <li>
-    <p><a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&amp;p=537">MechanicalKeyboards.com</a></p>
+  <li>There are several vendors who generally stock some of the older revisions of the pcbs.
+    <ul>
+      <li><a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&amp;p=537">MechanicalKeyboards.com</a></li>
+      <li><a href="http://falbatech.pl/prestashop/index.php?id_product=10&amp;controller=product&amp;id_lang=2">Falbatech.pl</a></li>
+    </ul>
   </li>
-  <li>
-    <p><a href="http://falbatech.pl/prestashop/index.php?id_product=10&amp;controller=product&amp;id_lang=2">Falbatech.pl</a></p>
+  <li>You could also buy the updated pcb from your vendor of choice by providing them the KiCad or Gerber files in the repo listed above or purchase a batch from OSH Park
+    <ul>
+      <li><a href="https://oshpark.com/shared_projects/wWzS30He">OSH Park</a></li>
+    </ul>
   </li>
-</ul>
-
-<p>You could also buy the updated pcb from your vendor of choice by providing them the KiCad or Gerber files in the repo listed above or purchase a batch from OSH Park</p>
-
-<ul>
-  <li><a href="https://oshpark.com/shared_projects/wWzS30He">OSH Park</a></li>
 </ul>
 
 
@@ -280,25 +277,26 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
 
             <p>Full Parts list:</p>
 
-<ul>
-  <li>1x  Pair of pcbs (one for each hand)</li>
-  <li>1x  Teensy USB Board, Version 2.0</li>
-  <li>24x Teensy header pins, male (unless pre-installed)</li>
-  <li>1x  MCP23018-E/SP I/O expander</li>
-  <li>76-80x  Cherry MX switches, (depending on your layout)</li>
-  <li>76-80x  1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
-  <li>2x  2.2k Ω resistors (red, red, red)</li>
-  <li>3x  3mm T1 LEDs</li>
-  <li>3x  220 Ω resistors, or match to LED. (red, red, brown)</li>
-  <li>5x  Short jumpers (You can also use the clipped off legs from your resistors)</li>
-  <li>1x  0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
-  <li>1x  USB mini B connector WM17115</li>
-  <li>1x  USB mini B plug with short cable (such as H2955)</li>
-  <li>1x  USB cable male A to male mini B</li>
-  <li>2x  3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off</li>
-  <li>1x  Cable with two 3.5 mm TRRS plugs</li>
-  <li>1x  Ergodox Keyboard case</li>
-</ul>
+<div class="highlighter-rouge"><pre class="highlight"><code>1x                Pair of pcbs (one for each hand)
+1x                Teensy USB Board, Version 2.0
+24x            Teensy header pins, male (unless pre-installed)
+1x                MCP23018-E/SP I/O expander
+76-80x    Cherry MX switches, (depending on your layout)
+76-80x    1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3" pitch) (through hole) (again, the amount needed will depend on your layout)
+2x               2.2k Ω resistors (red, red, red)
+3x               3mm T1 LEDs
+3x               220 Ω resistors, or match to LED. (red, red, brown)
+5x               Short jumpers (You can also use the clipped off legs from your resistors)
+1x                0.1 µF ceramic capacitor (marked "104" for 10*104 picofarad). Not strictly necessary but suggested
+1x                USB mini B connector WM17115
+1x                USB mini B plug with short cable (such as H2955)
+1x                USB cable male A to male mini B
+2x               3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off
+1x                Cable with two 3.5 mm TRRS plugs
+1x                Ergodox Keyboard case
+76-80x     MX Keycaps
+</code></pre>
+</div>
 
 
         </section>
@@ -307,23 +305,42 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
     
         <section id="case" class="h4">
             
-                    <h4>Case</h4>
+                    <h4>Case & Keycaps</h4>
             
 
-            <p>While there are many options of materials available (such as cases carved out of wood)generally ErgoDox cases are either 3D printed or layered acrylic sheets.</p>
+            <p>While there are many options of materials available (such as cases carved out of wood) generally ErgoDox cases are either 3D printed or layered acrylic sheets.</p>
+
+<p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
 
 <ul>
-  <li>
-    <p>The 3D printable case options are available in our <a href="https://github.com/Ergodox-io/ergodox-case">repo</a> and have been uploaded to <a href="http://www.shapeways.com/shops/Dox">Shapeways</a></p>
-  </li>
-  <li>
-    <p>The most popular and less expensive option is the layered acrylic design.
-<a href="https://github.com/Ergodox-io/ErgoDox/tree/master/ErgoDox%20Acrylic%20Case">Github Repo</a> assembled with m3 bolts.</p>
+  <li>The most popular and less expensive option is the layered acrylic design.
+<a href="https://github.com/Ergodox-io/ErgoDox/tree/master/ErgoDox%20Acrylic%20Case">Github Repo</a> assembled with m3 bolts.
     <ul>
       <li>There is also a 3D printable <a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a> in our repo. This will prop up the ErgoDox at a very natural and comfortable angle.</li>
     </ul>
   </li>
 </ul>
+
+<p>Like any mechanical keyboard, keycaps will need to be obtained. In a normal 76 key configuration you will need:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  12x    1.5u
+  4x      2u
+  60x    1u
+</code></pre>
+</div>
+
+<p>If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  12x     1.5u 
+  68x    1u 
+</code></pre>
+</div>
+
+<p>The 1.5u outer column keys can optionally be mounted closer in and 1u keycaps can be used.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Note: This layout is only supported on the newer (post 2012) revisions of the pcb and will require a modified plate design to support the new placement.
+</code></pre>
+</div>
 
         </section>
     
@@ -337,28 +354,31 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
             <p>Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides including a photo build guide and a video build log.</p>
 
 <ol>
-  <li>Arrange the pcbs face down, and solder in your diodes to this side.
+  <li>Arrange the pcbs face down and solder in the diodes to this side.
     <ul>
-      <li>1a. If you’re using the <em>surface mount</em> diodes, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.</li>
-      <li>1b. If you are using <em>through hole</em> diodes, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check your orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
-      <li><img src="../img/diode-min.jpg" alt="diode" /></li>
-      <li>Note: The additional holes surrounding the switch are all for diodes. Only one diode per switch is needed.</li>
+      <li>1a. If <em>surface mount</em> diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.</li>
+      <li>1b. If <em>through hole</em> diodes are chosen, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check the orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
+      <li><img src="../img/diode-min.jpg" alt="diode" />
+        <div class="highlighter-rouge"><pre class="highlight"><code> Note: The additional holes surrounding the switch are all for diodes. Only one diode per switch is needed.
+</code></pre>
+        </div>
+      </li>
     </ul>
   </li>
   <li>
-    <p>Flip both the pcbs over, this face up side (without the diodes) will be the side you will place all of the remaining components.</p>
+    <p>Flip both of the pcbs over, this face up side (without the diodes) will be the side that the remaining components will be placed.</p>
   </li>
-  <li>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for your leds) onto the right hand where labled on the pcb and solder into place.
-    <ul>
-      <li>Note: Keep the legs you clip off the resistors, you can use them in a later step when we install the TRRS connections.</li>
-    </ul>
+  <li>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for the leds selected) onto the right hand where labled on the pcb and solder into place.
+    <div class="highlighter-rouge"><pre class="highlight"><code>Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
+</code></pre>
+    </div>
   </li>
   <li>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place.
-    <ul>
-      <li>Note: There are three holes without copper pads and do not need to be soldered.</li>
-    </ul>
+    <div class="highlighter-rouge"><pre class="highlight"><code>Note: There are three holes without copper pads and do not need to be soldered.
+</code></pre>
+    </div>
   </li>
-  <li><em>(Optional but suggested step)</em> On the left hand pcb, insert your ceramic capacitor into the first and third holes of the top row and solder in place.
+  <li><em>(Optional but suggested step)</em> On the left hand pcb, insert the ceramic capacitor into the first and third holes of the top row and solder in place.
     <ul>
       <li>5a. Bridge with solder the two copper pads immediately to the left of the ceramic capacitor.</li>
       <li><img src="../img/ceramic-min.jpg" alt="capacitor" /></li>
@@ -371,12 +391,12 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li><img src="../img/trrs-min.jpg" alt="trrs" /></li>
     </ul>
   </li>
-  <li>Install the male jumper pins to the underside of your Teensy with the button face up and solder the pins to the top side of the Teensy.
-    <ul>
-      <li>Note: If your Teensy already has jumpers already installed, skip this step.</li>
-    </ul>
+  <li>Install the male jumper pins to the underside of the Teensy with the button face up and solder the pins to the top side of the Teensy.
+    <div class="highlighter-rouge"><pre class="highlight"><code>Note: If the Teensy already has jumpers already installed, skip this step.
+</code></pre>
+    </div>
   </li>
-  <li>Insert your Teensy jumper legs onto the right hand side with the usb facing the resistors and solder in place.
+  <li>Insert the Teensy jumper legs from the Teensy assembly onto the right hand pcb with the usb facing the direction of the resistors and solder in place.
     <ul>
       <li><img src="../img/teensy-min.jpg" alt="teensy" /></li>
     </ul>
@@ -398,33 +418,41 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li><img src="../img/usb-min.jpg" alt="usb" /></li>
     </ul>
   </li>
-  <li>Ready the case of your choosing, depending on which design you picked.
+  <li>Prepare the chosen case.
     <ul>
-      <li>11a. If you are using the layered acrylic case design, peel off the protective film off the acrylic pieces.
+      <li>11a. If the layered acrylic case design is being used, peel off the protective film off the acrylic pieces.
         <ul>
           <li>Place the pcb under the 3rd acrylic layer and insert the switches into the acylic plate making sure that both pins from the switch are extending out through the pcb.</li>
         </ul>
       </li>
-      <li>11b. If you are using the 3D printed or other 2 piece case design
+      <li>11b. If the 3D printed case is being used
         <ul>
           <li>Place the pcb under the top section and push the switches into the case making sure that both pins from the switch are extending out through the pcb.</li>
         </ul>
       </li>
-      <li>Solder switches in place.</li>
+      <li>Solder switches in place.
+        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Make note of the location for the three switches on the right hand that will support the LEDs
+</code></pre>
+        </div>
+      </li>
     </ul>
   </li>
-  <li>On the right hand, insert your three leds through the housing of the three switches and solder into place.
-    <ul>
-      <li>Note: LEDs have polarity so be sure that your positive leg of your leds goes into the (face up) square hole.</li>
-    </ul>
+  <li>On the right hand, insert the three leds through the housing of the three switches and solder into place.
+    <div class="highlighter-rouge"><pre class="highlight"><code>Note: LEDs have polarity so be sure that the positive leg of the LEDs goes into the (face up) square hole.
+</code></pre>
+    </div>
   </li>
-  <li>Finish assembling your case, plug in your TRRS cable between the two halves and proceed to building and flashing your firmware.</li>
+  <li>Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.</li>
 </ol>
 
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</li>
-  <li><a href="http://imgur.com/a/3riAB">Imgur Build Log</a>: user robotmaxtron shares his build log (including mistakes).</li>
-  <li><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</li>
+  <li><strong>Other Guides:</strong>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</li>
+      <li><a href="http://imgur.com/a/3riAB">Imgur Build Log</a>: user robotmaxtron shares his build log (including mistakes).</li>
+      <li><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</li>
+    </ul>
+  </li>
 </ul>
 
 
@@ -437,7 +465,7 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h2>Firmware Guide</h2>
                 
 
-            <p>There are a number of options for the firmware powering your keyboard, each with their own sets of features and options. Please consult the firmware of your choice for specific instructions on how to use it.</p>
+            <p>There are a number of options for the firmware powering the ErgoDox keyboard, each with their own sets of features and options. Please consult the README guides for each firmware for specific instructions on how to use and compile it.</p>
 
 
         </section>
@@ -449,13 +477,14 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h4>QMK</h4>
             
 
-            <p><a href="http://qmk.fm/keyboards/ergodox/">Homepage</a></p>
-
-<p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
+            <p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
 
 <p>Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.</p>
 
 <p>The QMK Online Configuration tool listed in the ErgoDox-EZ can also be used to generate .hex files for this original design and is based on QMK.</p>
+
+<p><strong><a href="http://qmk.fm/keyboards/ergodox/">Homepage</a></strong></p>
+
 
         </section>
     
@@ -466,7 +495,9 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h4>TMK</h4>
             
 
-            <p><a href="https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox">Github</a></p>
+            <p>The popular TMK firmware has also been ported to the ErgoDox.</p>
+
+<p><strong><a href="https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox">Github Repo</a></strong></p>
 
         </section>
     
@@ -477,9 +508,10 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h4>Online Massdrop Configurator</h4>
             
 
-            <p><a href="https://keyboard-configurator.massdrop.com/ext/ergodox">Homepage</a></p>
+            <p>Massdrop has developed an online tool for generating Ergodox keymaps without the need to compile your own firmware, suggested for users who might not be comfortable compiling their own firmware.</p>
 
-<p>Massdrop has developed an online tool for generating Ergodox keymaps without the need to compile your own firmware, suggested for users who might not be comfortable compiling their own firmware.</p>
+<p><strong><a href="https://www.massdrop.com/configurator/ergodox">Homepage</a></strong></p>
+
 
         </section>
     
@@ -490,9 +522,9 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h4>Original Ergodox Firmware</h4>
             
 
-            <p><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></p>
+            <p>The originally designed firmware is also available, though fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
 
-<p>This firmware has fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
+<p><strong><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></strong></p>
 
 
         </section>
@@ -504,19 +536,23 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h3>Flashing your Ergodox</h3>
                 
 
-            <p>Flashing your Ergodox is typically done with the <a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader</a>, and will be needed for the following guide.</p>
+            <p>Once the firmware has been compiled down into a .hex file, it will need to be uploaded to the keyboard typically called flashing.</p>
 
-<ol>
-  <li>Locate your .hex file generated by your firmware of choice</li>
-  <li>Start the Teensy Loader program</li>
-  <li>Load the .hex file into it.</li>
-  <li>Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
-    <ul>
-      <li>Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.</li>
-    </ul>
+<ul>
+  <li>Flashing your Ergodox is typically done with the <a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader</a>, and will be needed for the following guide.
+    <ol>
+      <li>Locate your .hex file generated by your firmware of choice</li>
+      <li>Start the Teensy Loader program</li>
+      <li>Load the .hex file into it.</li>
+      <li>Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
+        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.
+</code></pre>
+        </div>
+      </li>
+      <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
+    </ol>
   </li>
-  <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
-</ol>
+</ul>
 
 
         </section>
@@ -541,48 +577,52 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
 
             <p>Quickly becoming the most popular variant of the ErgoDox and developed by Input.club, the Ergodox Infinity has an LCD screen built into each half with a few other updates to the original design.</p>
 
-<p><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></p>
-
-<p>Firmware options:</p>
 <ul>
-  <li><a href="http://qmk.fm/">QMK</a></li>
-  <li><a href="https://github.com/tmk/infinity_ergodox">TMK</a></li>
-  <li><a href="https://input.club/configurator-ergodox">KLL Online Configurator</a></li>
-</ul>
-
-<p>Cases:</p>
-<ul>
-  <li><a href="https://github.com/kiibohd/case">Offically Designed Case</a></li>
-  <li><a href="https://www.massdrop.com/buy/datamancer-infinity-ergodox-hardwood-case">Datamancer Infinity Hardwood Case</a></li>
-</ul>
-
-<p>Printed Circuit Board:</p>
-<ul>
-  <li><a href="https://github.com/kiibohd/pcb">Github PCB Repo</a></li>
-</ul>
-
-<p>Guides:</p>
-<ul>
-  <li><a href="https://input.club/devices/infinity-ergodox/infinity-ergodox-build-guide/">Official Build Guide</a></li>
-  <li>Reddit user keredomo has put together a set of Linux guides
-    <ol>
-      <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5bjdxe/guide_the_infinity_ergodox_a_linux_guide/">The Infinity Ergodox: A Linux Guide</a></li>
-      <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5bjtt8/guide_infinity_ergodox_linux_guide_modifying/">Modifying Firmware for Advanced Macros</a></li>
-      <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5coiu8/guide_infinity_ergodox_linux_guide_altering_the/">Altering the Default LCD Screen</a></li>
-    </ol>
+  <li>Firmware options:
+    <ul>
+      <li><a href="http://qmk.fm/">QMK</a></li>
+      <li><a href="https://github.com/tmk/infinity_ergodox">TMK</a></li>
+      <li><a href="https://input.club/configurator-ergodox">KLL Online Configurator</a></li>
+    </ul>
+  </li>
+  <li>Cases:
+    <ul>
+      <li><a href="https://github.com/kiibohd/case">Offically Designed Case</a></li>
+      <li><a href="https://www.massdrop.com/buy/datamancer-infinity-ergodox-hardwood-case">Datamancer Infinity Hardwood Case</a></li>
+    </ul>
+  </li>
+  <li>Printed Circuit Board:
+    <ul>
+      <li><a href="https://github.com/kiibohd/pcb">Github PCB Repo</a></li>
+    </ul>
+  </li>
+  <li>Guides:
+    <ul>
+      <li><a href="https://input.club/devices/infinity-ergodox/infinity-ergodox-build-guide/">Official Build Guide</a></li>
+      <li>Reddit user keredomo has put together a set of Linux guides
+        <ol>
+          <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5bjdxe/guide_the_infinity_ergodox_a_linux_guide/">The Infinity Ergodox: A Linux Guide</a></li>
+          <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5bjtt8/guide_infinity_ergodox_linux_guide_modifying/">Modifying Firmware for Advanced Macros</a></li>
+          <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/5coiu8/guide_infinity_ergodox_linux_guide_altering_the/">Altering the Default LCD Screen</a></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Differences between the original ErgoDox and the Infinity:
+    <ul>
+      <li>In-switch backlighting</li>
+      <li>USB-C replaces TRRS between the two halves</li>
+      <li>Each half can be used independently</li>
+      <li>Pre-soldered smd components, only switches and LEDs will need to be soldered</li>
+      <li>LCD screens on each keyboard half</li>
+      <li>Proper costar stabilizer support</li>
+      <li>ALPS switch support</li>
+    </ul>
   </li>
 </ul>
 
-<p>Differences between the original ErgoDox and the Infinity:</p>
-<ul>
-  <li>In-switch backlighting</li>
-  <li>USB-C replaces TRRS between the two halves</li>
-  <li>Each half can be used independently</li>
-  <li>Pre-soldered smd components, only switches and LEDs will need to be soldered</li>
-  <li>LCD screens on each keyboard half</li>
-  <li>Proper costar stabilizer support</li>
-  <li>ALPS switch support</li>
-</ul>
+<p><strong><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></strong></p>
+
 
         </section>
     
@@ -595,20 +635,24 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
 
             <p>Another popular fork of the ErgoDox is a pre-built version with a case that supports legs that will allow you to ‘tent’ or angle the ErgoDox-EZ.</p>
 
-<p><a href="https://ergodox-ez.com">Homepage</a></p>
-
-<p>Firmware:</p>
 <ul>
-  <li><a href="http://qmk.fm/">QMK</a></li>
-  <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">QMK Online Configuration</a></li>
-  <li><a href="https://github.com/ErgoDox-EZ/reactor/blob/master/lib/firmware/TMK_README.md">TMK</a></li>
+  <li>Firmware:
+    <ul>
+      <li><a href="http://qmk.fm/">QMK</a></li>
+      <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">QMK Online Configuration</a></li>
+      <li><a href="https://github.com/ErgoDox-EZ/reactor/blob/master/lib/firmware/TMK_README.md">TMK</a></li>
+    </ul>
+  </li>
+  <li>Differences between the original ErgoDox and the ErgoDox-EZ:
+    <ul>
+      <li>Preassembled</li>
+      <li>Optional tenting legs</li>
+    </ul>
+  </li>
 </ul>
 
-<p>Differences between the original ErgoDox and the ErgoDox-EZ:</p>
-<ul>
-  <li>Preassembled</li>
-  <li>Optional tenting legs</li>
-</ul>
+<p><strong><a href="https://ergodox-ez.com">Homepage</a></strong></p>
+
 
         </section>
     
