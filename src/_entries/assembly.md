@@ -49,10 +49,12 @@ Note: If the Teensy already has jumpers already installed, skip this step.
 9. Cut one of the mini usb cables about 1.5" from the connector.
  * 9a. Strip off all of the sheathing from the cable, exposing the 4 wires.
  * 9b. Place the following wires into their respective holes:
-  * White: D-
-  * Red:   5v
-  * Green: D+
-  * Black: GND
+~~~   
+White: D-
+Red:   5v
+Green: D+
+Black: GND
+~~~
  * 9c. Solder wires to the pcb.
  * ![wiring](../img/wiring-min.jpg)
 
@@ -64,7 +66,7 @@ Note: If the Teensy already has jumpers already installed, skip this step.
    * Place the pcb under the 3rd acrylic layer and insert the switches into the acylic plate making sure that both pins from the switch are extending out through the pcb.
  * 11b. If the 3D printed case is being used
    * Place the pcb under the top section and push the switches into the case making sure that both pins from the switch are extending out through the pcb.
- * Solder switches in place.
+ * 11c. Solder switches in place.
 ~~~
 Note: Make note of the location for the three switches on the right hand that will support the LEDs
 ~~~
