@@ -2,11 +2,12 @@
 sectionid: assemble
 sectionclass: h2
 parent-id: guide
+is-parent: yes
 title: Assembly Guide
 number: 2200
 ---
 
-Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides including a photo build guide and a video build log.
+Now the section where the soldering and real assembly happens, in the end of this section there will be a couple external links to other build guides including both a photo and video build log.
 
 1. Arrange the pcbs face down and solder in the diodes to this side.
   * 1a. If _surface mount_ diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.
@@ -77,9 +78,4 @@ Note: LEDs have polarity so be sure that the positive leg of the LEDs goes into 
 ~~~
 	
 13. Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.
-
-* **Other Guides:**
-  * [More the video type?](https://www.youtube.com/watch?v=x1irVrAl3Ts) YouTube has several other good guides, this one I think does an excellent job of balancing information and length.
-  * [Imgur Build Log](http://imgur.com/a/3riAB): user robotmaxtron shares his build log \(including mistakes\).
-  * [Massdrop](https://www.massdrop.com/ext/ergodox/assembly.php) also has a really great guide for assembly.
 

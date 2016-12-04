@@ -14,20 +14,14 @@ The 3D printable case options are available in our [repo](https://github.com/Erg
   - There is also a 3D printable [tenting stand](https://github.com/Ergodox-io/ergodox-tent) in our repo. This will prop up the ErgoDox at a very natural and comfortable angle.
 
 
-Like any mechanical keyboard, keycaps will need to be obtained. In a normal 76 key configuration you will need:
+- Like any mechanical keyboard, keycaps will need to be obtained. In a normal 76 key configuration you will need:
+  - 12x 1.5u
+  - 4x  2u
+  - 60x 1u
 
-~~~
-  12x    1.5u
-  4x      2u
-  60x    1u
-~~~
-
-If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:
-
-~~~
-  12x     1.5u 
-  68x    1u 
-~~~
+- If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:
+  - 12x 1.5u 
+  - 68x 1u 
 
 The 1.5u outer column keys can optionally be mounted closer in and 1u keycaps can be used.
  
