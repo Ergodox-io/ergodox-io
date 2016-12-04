@@ -86,8 +86,17 @@
                         
                     </li>
                 
-                    <li >
+                    <li class="parent">
                         <a href="#assemble">Assembly Guide</a>
+                        
+                            <ul>
+                                
+                                
+                                <li>
+                                    <a href="#assemble-2">Other Assembly Guides</a>
+                                </li>
+                                
+                            </ul>
                         
                     </li>
                 
@@ -151,6 +160,16 @@
                         
                     </li>
                 
+                    <li class="parent">
+                        <a href="#dactyl">Dactyl</a>
+                        
+                            <ul>
+                                
+                                
+                            </ul>
+                        
+                    </li>
+                
             </ul>
         
     </li>
@@ -191,6 +210,8 @@
 
 <p>The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
 
+<p>The original firmware was designed by Ben Blazak.</p>
+
 <p>This website was built by robotmaxtron with some help from the community as a way to centralize the documentation after ErgoDox.org went defunct.
 If you want to contribute to the project, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
 
@@ -223,21 +244,20 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h2>Parts Needed</h2>
                 
 
-            <p>To build an Ergodox, several readily available components will need to be procured.</p>
+            <p>To build an ErgoDox, some readily available components will need to be procured.</p>
 
-<p>Some notes on the electronics:</p>
-
-<p>The Cherry MX style switches can be either pcb or plate mounted.</p>
-
-<p>Either through hole or surface mount diodes can be used as the pcb supports both including in-switch through hole diodes.</p>
-
-<p>If the typical 3mm red leds are not used, be sure to replace the 220 Ω resistors with ones that match the leds chosen.</p>
-
-<p>PJRC sells a Teensy 2.0 both with and without header pins pre-installed. If you use a Teensy without the header pins pre-installed, you will need to obtain and install them.</p>
-
-<p>The pcb only supports presently, three in switch LEDs on the inner colum of the right hand labeled LEDa, LEDb, and LEDc.</p>
-
-<p>Many if not all of the small components can be easily found online at vendors such as Mouser or Digikey.</p>
+<ul>
+  <li>Some notes on the electronics before purchasing:
+    <ul>
+      <li>The Cherry MX style switches can be either pcb or plate mounted.</li>
+      <li>Either through hole or surface mount diodes can be used as the pcb supports both including in-switch through hole diodes.</li>
+      <li>If the typical 3mm red leds are not used, be sure to replace the 220 Ω resistors with ones that match the leds chosen.</li>
+      <li>PJRC sells a Teensy 2.0 both with and without header pins pre-installed. If you use a Teensy without the header pins pre-installed, you will need to obtain and install them.</li>
+      <li>The pcb only supports currently three in switch LEDs on the inner colum of the right hand labeled LEDa, LEDb, and LEDc.</li>
+      <li>Many if not all of the small components can be easily found online at vendors such as Mouser or Digikey.</li>
+    </ul>
+  </li>
+</ul>
 
 
         </section>
@@ -275,28 +295,30 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h4>Small Electronics</h4>
             
 
-            <p>Full Parts list:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>1x                Pair of pcbs (one for each hand)
-1x                Teensy USB Board, Version 2.0
-24x            Teensy header pins, male (unless pre-installed)
-1x                MCP23018-E/SP I/O expander
-76-80x    Cherry MX switches, (depending on your layout)
-76-80x    1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3" pitch) (through hole) (again, the amount needed will depend on your layout)
-2x               2.2k Ω resistors (red, red, red)
-3x               3mm T1 LEDs
-3x               220 Ω resistors, or match to LED. (red, red, brown)
-5x               Short jumpers (You can also use the clipped off legs from your resistors)
-1x                0.1 µF ceramic capacitor (marked "104" for 10*104 picofarad). Not strictly necessary but suggested
-1x                USB mini B connector WM17115
-1x                USB mini B plug with short cable (such as H2955)
-1x                USB cable male A to male mini B
-2x               3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off
-1x                Cable with two 3.5 mm TRRS plugs
-1x                Ergodox Keyboard case
-76-80x     MX Keycaps
-</code></pre>
-</div>
+            <ul>
+  <li>Full Parts list:
+    <ul>
+      <li>1x Pair of pcbs (one for each hand)</li>
+      <li>1x Teensy USB Board, Version 2.0</li>
+      <li>24x Teensy header pins, male (unless pre-installed)</li>
+      <li>1x MCP23018-E/SP I/O expander</li>
+      <li>76-80x Cherry MX switches, (depending on your layout)</li>
+      <li>76-80x 1N4148 diodes, SOD-123 package (Surface mount) or DO-35,(0.3” pitch) (through hole) (again, the amount needed will depend on your layout)</li>
+      <li>2x 2.2k Ω resistors (red, red, red)</li>
+      <li>3x 3mm T1 LEDs</li>
+      <li>3x 220 Ω resistors, or match to LED. (red, red, brown)</li>
+      <li>5x Short jumpers (You can also use the clipped off legs from your resistors)</li>
+      <li>1x 0.1 µF ceramic capacitor (marked “104” for 10*104 picofarad). Not strictly necessary but suggested</li>
+      <li>1x USB mini B connector WM17115</li>
+      <li>1x USB mini B plug with short cable (such as H2955)</li>
+      <li>1x USB cable male A to male mini B</li>
+      <li>2x 3.5 mm TRRS sockets, CP-43514. FC68129 will also work if its extra pins are snipped off</li>
+      <li>1x Cable with two 3.5 mm TRRS plugs</li>
+      <li>1x Ergodox Keyboard case</li>
+      <li>76-80x MX Keycaps</li>
+    </ul>
+  </li>
+</ul>
 
 
         </section>
@@ -319,22 +341,20 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li>There is also a 3D printable <a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a> in our repo. This will prop up the ErgoDox at a very natural and comfortable angle.</li>
     </ul>
   </li>
+  <li>Like any mechanical keyboard, keycaps will need to be obtained. In a normal 76 key configuration you will need:
+    <ul>
+      <li>12x 1.5u</li>
+      <li>4x  2u</li>
+      <li>60x 1u</li>
+    </ul>
+  </li>
+  <li>If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:
+    <ul>
+      <li>12x 1.5u</li>
+      <li>68x 1u</li>
+    </ul>
+  </li>
 </ul>
-
-<p>Like any mechanical keyboard, keycaps will need to be obtained. In a normal 76 key configuration you will need:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>  12x    1.5u
-  4x      2u
-  60x    1u
-</code></pre>
-</div>
-
-<p>If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>  12x     1.5u 
-  68x    1u 
-</code></pre>
-</div>
 
 <p>The 1.5u outer column keys can optionally be mounted closer in and 1u keycaps can be used.</p>
 
@@ -351,7 +371,7 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
                     <h2>Assembly Guide</h2>
                 
 
-            <p>Now the section where the soldering and real assembly happens, at the end of this section there will be a couple external links to other build guides including a photo build guide and a video build log.</p>
+            <p>Now the section where the soldering and real assembly happens, in the end of this section there will be a couple external links to other build guides including both a photo and video build log.</p>
 
 <ol>
   <li>Arrange the pcbs face down and solder in the diodes to this side.
@@ -448,15 +468,23 @@ Black: GND
   <li>Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.</li>
 </ol>
 
-<ul>
-  <li><strong>Other Guides:</strong>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</li>
-      <li><a href="http://imgur.com/a/3riAB">Imgur Build Log</a>: user robotmaxtron shares his build log (including mistakes).</li>
-      <li><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</li>
-    </ul>
-  </li>
-</ul>
+
+        </section>
+    
+
+    
+        <section id="assemble-2" class="h4">
+            
+                    <h4>Other Assembly Guides</h4>
+            
+
+            <p>External links to some popular guides to building the ErgoDox Keyboard</p>
+
+<p><a href="https://www.youtube.com/watch?v=x1irVrAl3Ts">More the video type?</a> YouTube has several other good guides, this one I think does an excellent job of balancing information and length.</p>
+
+<p><a href="http://imgur.com/a/3riAB">Imgur Build Log</a>: user robotmaxtron shares his build log (including mistakes).</p>
+
+<p><a href="https://www.massdrop.com/ext/ergodox/assembly.php">Massdrop</a> also has a really great guide for assembly.</p>
 
 
         </section>
@@ -482,7 +510,9 @@ Black: GND
 
             <p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
 
-<p>Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.
+</code></pre>
+</div>
 
 <p>The QMK Online Configuration tool listed in the ErgoDox-EZ can also be used to generate .hex files for this original design and is based on QMK.</p>
 
@@ -511,7 +541,9 @@ Black: GND
                     <h4>Online Massdrop Configurator</h4>
             
 
-            <p>Massdrop has developed an online tool for generating Ergodox keymaps without the need to compile your own firmware, suggested for users who might not be comfortable compiling their own firmware.</p>
+            <p>Massdrop has developed an online tool for generating ErgoDox keymaps without the need to compile your own firmware, suggested for users who might not be comfortable compiling their own firmware.</p>
+
+<p>The underlying firmware behind the graphical tool is based on the original firmware by Ben Blazak.</p>
 
 <p><strong><a href="https://www.massdrop.com/configurator/ergodox">Homepage</a></strong></p>
 
@@ -525,7 +557,7 @@ Black: GND
                     <h4>Original Ergodox Firmware</h4>
             
 
-            <p>The originally designed firmware is also available, though fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
+            <p>The originally designed firmware is also available, though somewhat fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
 
 <p><strong><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></strong></p>
 
@@ -567,7 +599,8 @@ Black: GND
                     <h1>Variants</h1>
                 
 
-            <p>The Ergodox by nature as an open source project has been forked and changed since it’s initial design, the following projects are just a selection of the more popular ones.</p>
+            <p>The open source nature of the ErgoDox has lead to several variants of the original design. The following list is not a comprehensive list, but does list many of the more popular designs.</p>
+
 
         </section>
     
@@ -578,7 +611,7 @@ Black: GND
                     <h2>Infinity</h2>
                 
 
-            <p>Quickly becoming the most popular variant of the ErgoDox and developed by Input.club, the Ergodox Infinity has an LCD screen built into each half with a few other updates to the original design.</p>
+            <p>Quickly becoming the most popular variant of the ErgoDox and developed by Input.club, the Infinity Ergodox has an LCD screen built into each half with a few other updates to the original design.</p>
 
 <ul>
   <li>Firmware options:
@@ -655,6 +688,40 @@ Black: GND
 </ul>
 
 <p><strong><a href="https://ergodox-ez.com">Homepage</a></strong></p>
+
+
+        </section>
+    
+
+    
+        <section id="dactyl" class="h2">
+            
+                    <h2>Dactyl</h2>
+                
+
+            <p>Created by Matthew Adereth, the Dactyl Keyboard is a parameterized, split-hand, concave, columnar, ergonomic keyboard is another outstanding variation on the ErgoDox design.</p>
+
+<p><img src="https://raw.githubusercontent.com/adereth/dactyl-cave/master/resources/glamourshot.png" alt="dactyl" /></p>
+
+<p><a href="https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring">Build Guide</a> for the brave (will be improved over time)</p>
+
+<p>The case is uploaded to the <a href="https://github.com/adereth/dactyl-keyboard/blob/master/things">things directory</a> of the Dactyl repo and has been uploaded to <a href="https://www.shapeways.com/shops/bespokeys">Shapeways</a></p>
+
+<p><a href="http://adereth.github.io/blog/2015/11/19/clojure-slash-conj-talk-on-3d-printing-keyboards/">Clojure/conj Talk on 3D Printing Keyboards</a>: Adereth gave a very interesting talk on the history of keyboards and the creation of the very interesting shape of the Dactyl Keyboard.</p>
+
+<ul>
+  <li>Differences between the ErgoDox and the Dactyl:
+    <ul>
+      <li>70 key layout, removes the inner column of keys.</li>
+      <li>1u outer column keys rather than the standard 1.5u</li>
+      <li>Handwired or flexible pcb</li>
+      <li>Concave shaped switch mounting</li>
+      <li>No official firmware but several options available.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://github.com/adereth/dactyl-keyboard">GitHub Project Homepage</a></strong></p>
 
 
         </section>
