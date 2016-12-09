@@ -7,7 +7,7 @@ title: Assembly Guide
 number: 2200
 ---
 
-Now the section where the soldering and real assembly happens, in the end of this section there will be a couple external links to other build guides including both a photo and video build log.
+Now the section where the soldering and real assembly happens, in the next subsection there will be a couple external links to other build guides including both a photo and video build log.
 
 1. Arrange the pcbs face down and solder in the diodes to this side.
   * 1a. If _surface mount_ diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.
