@@ -3,7 +3,7 @@ sectionclass: h2
 sectionid: infinity
 parent-id: variants
 is-parent: yes
-number: 3100
+number: 3300
 title: Infinity
 ---
 Quickly becoming the most popular variant of the ErgoDox and developed by Input.club, the Infinity Ergodox has an LCD screen built into each half with a few other updates to the original design. 
