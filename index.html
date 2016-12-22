@@ -8,23 +8,25 @@
 <link rel="stylesheet" href="css/main.css">
 <link href="https://overpass-30e2.kxcdn.com/overpass-mono.css" rel="stylesheet" />
 
-	<!-- Begin Jekyll SEO tag v2.1.0 -->
+	<!-- Begin Jekyll SEO tag v2.0.0 -->
 <title>index - ErgoDox Mechanical Keyboard</title>
 <meta property="og:title" content="index" />
 <meta name="description" content="Documentation and build guide for the ErgoDox mechanical keyboard" />
 <meta property="og:description" content="Documentation and build guide for the ErgoDox mechanical keyboard" />
-<link rel="canonical" href="https://www.ergodox.io/" />
-<meta property="og:url" content="https://www.ergodox.io/" />
+<link rel="canonical" href="http://0.0.0.0:3000/" />
+<meta property="og:url" content="http://0.0.0.0:3000/" />
 <meta property="og:site_name" content="ErgoDox Mechanical Keyboard" />
 <script type="application/ld+json">
-{"@context": "http://schema.org",
-"@type": "WebSite",
-"name": "ErgoDox Mechanical Keyboard",
-"headline": "index",
-"description": "Documentation and build guide for the ErgoDox mechanical keyboard",
-"url": "https://www.ergodox.io/"}</script>
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "ErgoDox Mechanical Keyboard",
+    "headline": "index",
+    "description": "Documentation and build guide for the ErgoDox mechanical keyboard",
+    "url": "http://0.0.0.0:3000/"
+  }
+</script>
 <!-- End Jekyll SEO tag -->
-
     </head>
 
     <body>
@@ -111,15 +113,19 @@
                                 </li>
                                 
                                 <li>
+                                    <a href="#ez-config">ErgoDox EZ Configurator</a>
+                                </li>
+                                
+                                <li>
                                     <a href="#tmk">TMK</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#massdrop-config">Online Massdrop Configurator</a>
+                                    <a href="#ergodox-firmware">Original Ergodox Firmware</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#ergodox-firmware">Original Ergodox Firmware</a>
+                                    <a href="#massdrop-config">Online Massdrop Configurator</a>
                                 </li>
                                 
                                 <li>
@@ -141,27 +147,27 @@
                 
                 
                     <li class="parent">
-                        <a href="#infinity">Infinity</a>
-                        
-                            <ul>
-                                
-                                
-                            </ul>
-                        
-                    </li>
-                
-                    <li class="parent">
-                        <a href="#ez">EZ</a>
-                        
-                            <ul>
-                                
-                                
-                            </ul>
-                        
-                    </li>
-                
-                    <li class="parent">
                         <a href="#dactyl">Dactyl</a>
+                        
+                            <ul>
+                                
+                                
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="parent">
+                        <a href="#ez">ErgoDox EZ</a>
+                        
+                            <ul>
+                                
+                                
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="parent">
+                        <a href="#infinity">Infinity</a>
                         
                             <ul>
                                 
@@ -175,6 +181,8 @@
     </li>
     
 </ul>
+ <a href="http://ergodox-ez.com" id="ezbanner" target="_blank" title="ErgoDox EZ"><img src="../img/ergodox_ez.svg"></a>
+
             </div>
 
             <div class="content">
@@ -187,13 +195,14 @@
                     <h1>The Keyboard</h1>
                 
 
-            <p>The Ergodox is a do-it-yourself keyboard project designed with ergonomics in mind. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
+            <p>The Ergodox is keyboard project designed with ergonomics in mind, available either as a DIY kit or an <a href="http://ergodox-ez.com">assembled, commercial version</a>. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
 
 <p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
 
 <p>Assembling this project will require some patience, soldering ability, and access to a computer to flash the firmware onto the keyboard.</p>
 
 <p><img src="../img/ErgoDox-original-min.png" alt="Ergodox" /></p>
+
 
         </section>
     
@@ -211,6 +220,10 @@
 <p>The original 3D printable case was designed by Dox but a far more popular and less expensive option was a layered acrylic design by litster.</p>
 
 <p>The original firmware was designed by Ben Blazak.</p>
+
+<p>The <a href="http://ergodox-ez.com">ErgoDox EZ</a> was commercialized and manufactured by Erez Zukerman, Dmitry Slepov, and Yaara Lancet.</p>
+
+<p><a href="https://github.com/jackhumbert/qmk_firmware">QMK Firwmare</a> which runs on the ErgoDox EZ was created by Jack Humbert, based on TMK.</p>
 
 <p>This website was built by robotmaxtron with some help from the community as a way to centralize the documentation after ErgoDox.org went defunct.
 If you want to contribute to the project, pull requests, bugs (via Github issues) can be filed at our <a href="https://github.com/Ergodox-io/ergodox-io">Github</a></p>
@@ -379,24 +392,25 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li>1a. If <em>surface mount</em> diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.</li>
       <li>1b. If <em>through hole</em> diodes are chosen, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check the orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
       <li><img src="../img/diode-min.jpg" alt="diode" />
-        <div class="highlighter-rouge"><pre class="highlight"><code> Note: The additional holes surrounding the switch are all for diodes. Only one diode per switch is needed.
-</code></pre>
-        </div>
-      </li>
+~~~  <br />
+ Note: The additional holes surrounding the switch are all for diodes. Only one diode per switch is needed.
+~~~</li>
     </ul>
   </li>
   <li>
     <p>Flip both of the pcbs over, this face up side (without the diodes) will be the side that the remaining components will be placed.</p>
   </li>
-  <li>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for the leds selected) onto the right hand where labled on the pcb and solder into place.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
-</code></pre>
-    </div>
+  <li>
+    <p>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for the leds selected) onto the right hand where labled on the pcb and solder into place. 
+~~~
+Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
+~~~</p>
   </li>
-  <li>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: There are three holes without copper pads and do not need to be soldered.
-</code></pre>
-    </div>
+  <li>
+    <p>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place.
+~~~
+Note: There are three holes without copper pads and do not need to be soldered.
+~~~</p>
   </li>
   <li><em>(Optional but suggested step)</em> On the left hand pcb, insert the ceramic capacitor into the first and third holes of the top row and solder in place.
     <ul>
@@ -411,10 +425,11 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li><img src="../img/trrs-min.jpg" alt="trrs" /></li>
     </ul>
   </li>
-  <li>Install the male jumper pins to the underside of the Teensy with the button face up and solder the pins to the top side of the Teensy.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: If the Teensy already has jumpers already installed, skip this step.
-</code></pre>
-    </div>
+  <li>
+    <p>Install the male jumper pins to the underside of the Teensy with the button face up and solder the pins to the top side of the Teensy.
+~~~
+Note: If the Teensy already has jumpers already installed, skip this step.
+~~~</p>
   </li>
   <li>Insert the Teensy jumper legs from the Teensy assembly onto the right hand pcb with the usb facing the direction of the resistors and solder in place.
     <ul>
@@ -425,13 +440,12 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
     <ul>
       <li>9a. Strip off all of the sheathing from the cable, exposing the 4 wires.</li>
       <li>9b. Place the following wires into their respective holes:
-        <div class="highlighter-rouge"><pre class="highlight"><code>White: D-
+~~~ <br />
+White: D-
 Red:   5v
 Green: D+
 Black: GND
-</code></pre>
-        </div>
-      </li>
+~~~</li>
       <li>9c. Solder wires to the pcb.</li>
       <li><img src="../img/wiring-min.jpg" alt="wiring" /></li>
     </ul>
@@ -454,16 +468,16 @@ Black: GND
         </ul>
       </li>
       <li>11c. Solder switches in place.
-        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Make note of the location for the three switches on the right hand that will support the LEDs
-</code></pre>
-        </div>
-      </li>
+~~~
+Note: Make note of the location for the three switches on the right hand that will support the LEDs
+~~~</li>
     </ul>
   </li>
-  <li>On the right hand, insert the three leds through the housing of the three switches and solder into place.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: LEDs have polarity so be sure that the positive leg of the LEDs goes into the (face up) square hole.
-</code></pre>
-    </div>
+  <li>
+    <p>On the right hand, insert the three leds through the housing of the three switches and solder into place.
+~~~
+Note: LEDs have polarity so be sure that the positive leg of the LEDs goes into the (face up) square hole.
+~~~</p>
   </li>
   <li>Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.</li>
 </ol>
@@ -523,6 +537,22 @@ Black: GND
     
 
     
+        <section id="ez-config" class="h4">
+            
+                    <h4>ErgoDox EZ Configurator</h4>
+            
+
+            <p>This is a powerful graphical configurator that lets you define layers, dual-function keys, LED control, and more without having to code.</p>
+
+<p>The underlying firmware behind the graphical tool is QMK, and the tool exposes many of its abilities.</p>
+
+<p><strong><a href="http://configure.ergodox-ez.com">Homepage</a></strong></p>
+
+
+        </section>
+    
+
+    
         <section id="tmk" class="h4">
             
                     <h4>TMK</h4>
@@ -531,6 +561,20 @@ Black: GND
             <p>The popular TMK firmware has also been ported to the ErgoDox.</p>
 
 <p><strong><a href="https://github.com/cub-uanic/tmk_keyboard/tree/master/keyboard/ergodox">Github Repo</a></strong></p>
+
+        </section>
+    
+
+    
+        <section id="ergodox-firmware" class="h4">
+            
+                    <h4>Original Ergodox Firmware</h4>
+            
+
+            <p>The originally designed firmware is also available, though somewhat fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
+
+<p><strong><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></strong></p>
+
 
         </section>
     
@@ -552,20 +596,6 @@ Black: GND
     
 
     
-        <section id="ergodox-firmware" class="h4">
-            
-                    <h4>Original Ergodox Firmware</h4>
-            
-
-            <p>The originally designed firmware is also available, though somewhat fallen out of favor due to QMK and TMK’s improved functionalty and larger community support. The project has not had much movement since late 2015.</p>
-
-<p><strong><a href="https://github.com/benblazak/ergodox-firmware">GitHub</a></strong></p>
-
-
-        </section>
-    
-
-    
         <section id="flashing" class="h3">
             
                     <h3>Flashing your Ergodox</h3>
@@ -580,10 +610,9 @@ Black: GND
       <li>Start the Teensy Loader program</li>
       <li>Load the .hex file into it.</li>
       <li>Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
-        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.
-</code></pre>
-        </div>
-      </li>
+~~~
+Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.
+~~~</li>
       <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
     </ol>
   </li>
@@ -600,6 +629,74 @@ Black: GND
                 
 
             <p>The open source nature of the ErgoDox has lead to several variants of the original design. The following list is not a comprehensive list, but does list many of the more popular designs.</p>
+
+
+        </section>
+    
+
+    
+        <section id="dactyl" class="h2">
+            
+                    <h2>Dactyl</h2>
+                
+
+            <p>Created by Matthew Adereth, the Dactyl Keyboard is a parameterized, split-hand, concave, columnar, ergonomic keyboard is another outstanding variation on the ErgoDox design.</p>
+
+<p><img src="https://raw.githubusercontent.com/adereth/dactyl-cave/master/resources/glamourshot.png" alt="dactyl" /></p>
+
+<p><a href="https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring">Build Guide</a> for the brave (will be improved over time)</p>
+
+<p>The case is uploaded to the <a href="https://github.com/adereth/dactyl-keyboard/blob/master/things">things directory</a> of the Dactyl repo and has been uploaded to <a href="https://www.shapeways.com/shops/bespokeys">Shapeways</a></p>
+
+<p><a href="http://adereth.github.io/blog/2015/11/19/clojure-slash-conj-talk-on-3d-printing-keyboards/">Clojure/conj Talk on 3D Printing Keyboards</a>: Adereth gave a very interesting talk on the history of keyboards and the creation of the very interesting shape of the Dactyl Keyboard.</p>
+
+<ul>
+  <li>Differences between the ErgoDox and the Dactyl:
+    <ul>
+      <li>70 key layout, removes the inner column of keys.</li>
+      <li>1u outer column keys rather than the standard 1.5u</li>
+      <li>Handwired or flexible pcb</li>
+      <li>Concave shaped switch mounting</li>
+      <li>No official firmware but several options available.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://github.com/adereth/dactyl-keyboard">GitHub Project Homepage</a></strong></p>
+
+
+        </section>
+    
+
+    
+        <section id="ez" class="h2">
+            
+                    <h2>ErgoDox EZ</h2>
+                
+
+            <p>Another popular fork of the ErgoDox is a pre-built version with a case that supports legs that will allow you to ‘tent’ or angle the ErgoDox-EZ.</p>
+
+<ul>
+  <li>Firmware:
+    <ul>
+      <li><a href="http://qmk.fm/">QMK</a></li>
+      <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">ErgoDox EZ Online Configuration</a> for graphically configuring layouts (no coding required)</li>
+      <li><a href="https://github.com/ErgoDox-EZ/reactor/blob/master/lib/firmware/TMK_README.md">TMK</a></li>
+    </ul>
+  </li>
+  <li>Differences between the original ErgoDox and the ErgoDox-EZ:
+    <ul>
+      <li>Preassembled</li>
+      <li>Custom-tooled case made from ABS plastic</li>
+      <li>Two-year warranty</li>
+      <li>Custom-built tilt/tent kit with metal legs that allow you to control the angle of the keyboard on your desk</li>
+      <li>Custom-made wrist rest (Wing)</li>
+      <li>Available with RGB LED backlighting</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://ergodox-ez.com">Homepage</a></strong></p>
 
 
         </section>
@@ -658,70 +755,6 @@ Black: GND
 </ul>
 
 <p><strong><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></strong></p>
-
-
-        </section>
-    
-
-    
-        <section id="ez" class="h2">
-            
-                    <h2>EZ</h2>
-                
-
-            <p>Another popular fork of the ErgoDox is a pre-built version with a case that supports legs that will allow you to ‘tent’ or angle the ErgoDox-EZ.</p>
-
-<ul>
-  <li>Firmware:
-    <ul>
-      <li><a href="http://qmk.fm/">QMK</a></li>
-      <li><a href="http://configure.ergodox-ez.com/keyboard_layouts/new">QMK Online Configuration</a></li>
-      <li><a href="https://github.com/ErgoDox-EZ/reactor/blob/master/lib/firmware/TMK_README.md">TMK</a></li>
-    </ul>
-  </li>
-  <li>Differences between the original ErgoDox and the ErgoDox-EZ:
-    <ul>
-      <li>Preassembled</li>
-      <li>Optional tenting legs</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong><a href="https://ergodox-ez.com">Homepage</a></strong></p>
-
-
-        </section>
-    
-
-    
-        <section id="dactyl" class="h2">
-            
-                    <h2>Dactyl</h2>
-                
-
-            <p>Created by Matthew Adereth, the Dactyl Keyboard is a parameterized, split-hand, concave, columnar, ergonomic keyboard is another outstanding variation on the ErgoDox design.</p>
-
-<p><img src="https://raw.githubusercontent.com/adereth/dactyl-cave/master/resources/glamourshot.png" alt="dactyl" /></p>
-
-<p><a href="https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring">Build Guide</a> for the brave (will be improved over time)</p>
-
-<p>The case is uploaded to the <a href="https://github.com/adereth/dactyl-keyboard/blob/master/things">things directory</a> of the Dactyl repo and has been uploaded to <a href="https://www.shapeways.com/shops/bespokeys">Shapeways</a></p>
-
-<p><a href="http://adereth.github.io/blog/2015/11/19/clojure-slash-conj-talk-on-3d-printing-keyboards/">Clojure/conj Talk on 3D Printing Keyboards</a>: Adereth gave a very interesting talk on the history of keyboards and the creation of the very interesting shape of the Dactyl Keyboard.</p>
-
-<ul>
-  <li>Differences between the ErgoDox and the Dactyl:
-    <ul>
-      <li>70 key layout, removes the inner column of keys.</li>
-      <li>1u outer column keys rather than the standard 1.5u</li>
-      <li>Handwired or flexible pcb</li>
-      <li>Concave shaped switch mounting</li>
-      <li>No official firmware but several options available.</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong><a href="https://github.com/adereth/dactyl-keyboard">GitHub Project Homepage</a></strong></p>
 
 
         </section>
