@@ -16,7 +16,7 @@ The original firmware was designed by Ben Blazak.
 
 The [ErgoDox EZ](http://ergodox-ez.com) was commercialized and manufactured by Erez Zukerman, Dmitry Slepov, and Yaara Lancet.
 
-[QMK Firwmare](https://github.com/jackhumbert/qmk_firmware) which runs on the ErgoDox EZ was created by Jack Humbert, based on TMK.
+[QMK Firmware](https://github.com/jackhumbert/qmk_firmware) which runs on the ErgoDox EZ was created by Jack Humbert, based on TMK.
 
 This website was built by robotmaxtron with some help from the community as a way to centralize the documentation after ErgoDox.org went defunct.
 If you want to contribute to the project, pull requests, bugs (via Github issues) can be filed at our [Github](https://github.com/Ergodox-io/ergodox-io)
