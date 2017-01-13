@@ -2,7 +2,7 @@
 sectionid: tmk
 sectionclass: h4
 parent-id: firmware
-number: 2302
+number: 2303
 title: TMK
 ---
 The popular TMK firmware has also been ported to the ErgoDox.
