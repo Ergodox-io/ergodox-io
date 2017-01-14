@@ -24,7 +24,7 @@ Now the section where the soldering and real assembly happens, in the next subse
 Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
 ~~~
 
-4. On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. Solder the legs in place.
+4. On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. The I/O expander is directional and the notch on the I/O expander should match up with the silkscreen. The notch on the expander will be facing ErgoDox printing on the circuit board. See the image in the next step for an example.
 ~~~
 Note: There are three holes without copper pads and do not need to be soldered.
 ~~~
