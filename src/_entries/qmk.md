@@ -9,7 +9,7 @@ A build guide for compiling and customizing your firmware is best found in the r
 
 	Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.
 
-The QMK Online Configuration tool listed in the ErgoDox-EZ can also be used to generate .hex files for this original design and is based on QMK.
+The ErgoDox EZ Configurator tool can also be used to generate keymappings and their .hex files with QMK.
 
 **[Homepage](http://qmk.fm/keyboards/ergodox/)**
 
