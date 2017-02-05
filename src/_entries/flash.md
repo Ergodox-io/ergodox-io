@@ -13,7 +13,7 @@ Once the firmware has been compiled down into a .hex file, it will need to be up
   3. Load the .hex file into it.
   4. Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
 ~~~
-Note: Some firmware (such as QMK and TMK) allow for this to be programmed as a keycode.
+Note: Some firmware (such as QMK and TMK) allow for the resetting of your atmel chip to be programmed as a keycode.
 ~~~
   5. Click the button in the Teensy app to upload the firmware to your keyboard.
 

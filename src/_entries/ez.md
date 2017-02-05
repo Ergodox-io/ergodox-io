@@ -18,8 +18,8 @@ Another popular fork of the ErgoDox is a pre-built version with a case that supp
   - Custom-tooled case made from ABS plastic
   - Two-year warranty
   - Custom-built tilt/tent kit with metal legs that allow you to control the angle of the keyboard on your desk
-  - Custom-made wrist rest (Wing)
-  - Available with RGB LED backlighting
+  - Custom-made wrist rest (wing) available
+  - Available with RGB LED underglow 
 
 **[Homepage](https://ergodox-ez.com)**
 

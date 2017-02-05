@@ -6,7 +6,7 @@ is-parent: yes
 number: 3100
 title: Dactyl
 ---
-Created by Matthew Adereth, the Dactyl Keyboard is a parameterized, split-hand, concave, columnar, ergonomic keyboard is another outstanding variation on the ErgoDox design.
+Created by Matthew Adereth, the Dactyl Keyboard is a parameterized, split-hand, concave, columnar, ergonomic keyboard is an outstanding variation on the ErgoDox design.
 
 ![dactyl](https://raw.githubusercontent.com/adereth/dactyl-cave/master/resources/glamourshot.png)
 
