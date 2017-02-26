@@ -10,9 +10,9 @@ number: 2200
 Now the section where the soldering and real assembly happens, in the next subsection there will be a couple external links to other build guides including both a photo and video build log.
 
 1. Arrange the pcbs face down and solder in the diodes to this side.
-  * 1a. If _surface mount_ diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. Solder the diodes and repeat for each switch on both hands.
+  * 1a. If _surface mount_ diodes are chosen, place them on the small square copper pads but be sure to orient the diodes so that the line on the diode faces the square hole. The line on the diode indicates the cathode/negative side. Solder the diodes and repeat for each switch on both hands.
   * ![diode](../img/diode-min.jpg)
-  * 1b. If _through hole_ diodes are chosen, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check the orientation to be sure that the line on the diode is closest to the square hole. Solder and repeat for each switch on both hands.
+  * 1b. If _through hole_ diodes are chosen, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check the orientation to be sure that the cathode/negative side of the diode is closest to the square hole. Solder and repeat for each switch on both hands.
   * ![Through-hole diode](../img/th-diode-min.jpg)
 ~~~    
 	Note: The additional holes in this second image are for through switch LEDs. Only one diode per switch is needed.
@@ -75,7 +75,7 @@ Note: Make note of the location for the three switches on the right hand that wi
   
 12. On the right hand, insert the three leds through the housing of the three switches and solder into place.
 ~~~
-Note: LEDs have polarity so be sure that the positive leg of the LEDs goes into the (face up) square hole.
+Note: LEDs have polarity so be sure that the negative leg (which is the shorter of the two legs) of the LEDs goes into the (face up) square hole.
 ~~~
 	
 13. Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.
