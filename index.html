@@ -8,21 +8,17 @@
 <link rel="stylesheet" href="css/main.css">
 <link href="https://overpass-30e2.kxcdn.com/overpass-mono.css" rel="stylesheet" />
 
-	<!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>index - ErgoDox Mechanical Keyboard</title>
+	<!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>index | ErgoDox Mechanical Keyboard</title>
 <meta property="og:title" content="index" />
+<meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation and build guide for the ErgoDox mechanical keyboard" />
 <meta property="og:description" content="Documentation and build guide for the ErgoDox mechanical keyboard" />
-<link rel="canonical" href="https://www.ergodox.io/" />
-<meta property="og:url" content="https://www.ergodox.io/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="ErgoDox Mechanical Keyboard" />
 <script type="application/ld+json">
-{"@context": "http://schema.org",
-"@type": "WebSite",
-"name": "ErgoDox Mechanical Keyboard",
-"headline": "index",
-"description": "Documentation and build guide for the ErgoDox mechanical keyboard",
-"url": "https://www.ergodox.io/"}</script>
+{"@context":"http://schema.org","@type":"WebSite","name":"ErgoDox Mechanical Keyboard","headline":"index","description":"Documentation and build guide for the ErgoDox mechanical keyboard","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
     </head>
@@ -174,6 +170,16 @@
                         
                     </li>
                 
+                    <li class="parent">
+                        <a href="#infinity">Gamepad</a>
+                        
+                            <ul>
+                                
+                                
+                            </ul>
+                        
+                    </li>
+                
             </ul>
         
     </li>
@@ -193,9 +199,9 @@
                     <h1>The Keyboard</h1>
                 
 
-            <p>The Ergodox is keyboard project designed with ergonomics in mind, available either as a DIY kit or an <a href="http://ergodox-ez.com">assembled, commercial version</a>. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. It’s completely programmable and can be flashed with several different firmware options.</p>
+            <p>Ergodox is a keyboard project designed with ergonomics in mind, available either as a DIY kit or an <a href="http://ergodox-ez.com">assembled, commercial version</a>. It uses 76-80 Cherry MX style mechanical switches (such as Cherry or Gateron) laid out in a columnar stagger (rather than the more conventional row stagger) layout with components that can easily be sourced. The keyboard is completely programmable and can be flashed with several different firmware options.</p>
 
-<p>The entire project (including this website) are Open Source, allowing you the freedom to modify and tweak the project as you see fit.</p>
+<p>The entire project (including this website) is open source, allowing you the freedom to modify and tweak the project as you see fit.</p>
 
 <p>Assembling this project will require some patience, soldering ability, and access to a computer to flash the firmware onto the keyboard.</p>
 
@@ -764,6 +770,36 @@ Black: GND
 </ul>
 
 <p><strong><a href="https://input.club/devices/infinity-ergodox/">Homepage</a></strong></p>
+
+
+        </section>
+    
+
+    
+        <section id="infinity" class="h2">
+            
+                    <h2>Gamepad</h2>
+                
+
+            <p>User Profet23 of <a href="http://profetkeyboards.com">profetkeyboards.com</a> has made some pcb updates that have been merged into the main pcb repo to allow for left hand only ErgoDox support. This is ideal as a gamepad or other single left-handed usage.</p>
+
+<p><img src="../img/gamepad0-min.jpg" alt="Gamepad" /></p>
+
+<p>An example of the a finished build</p>
+
+<p><img src="../img/gamepad1-min.jpg" alt="Gamepad" /></p>
+
+<p>The PCB has now has pads that support the installation of an optional reset switch. The Teensy 2.0 is actually installed upside down, the built in reset switch is not accessible. There is also an extra hole for the Teensy to solder a header pin for the reset switch.</p>
+
+<p><img src="../img/gamepad2-min.jpg" alt="Gamepad" /></p>
+
+<p>The new “top” of PCB. Teensy is installed upside down. 2.2k resistors, jumpers, and USB port installed on top. In this revision of the PCB, the jumpers dictate which side the USB port can be installed on as well as the TRRS port (which isn’t used in gamepad configuration).</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>	Note: that the USB connection wires are installed (from left to right) empty, black, green, red, white. This is different from the silk screen layout as the usb port is now on "backwards".
+</code></pre>
+</div>
+<p><img src="../img/gamepad4-min.jpg" alt="Gamepad" /></p>
+
+<p>The new “bottom” of the PCB. The reset switch has been soldered to the bottom. LED resistors have also been soldered to bottom.</p>
 
 
         </section>
