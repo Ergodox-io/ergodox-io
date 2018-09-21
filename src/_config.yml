@@ -16,7 +16,7 @@ collections:
 sass:
   sass_dir: _sass
   style: :compressed
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 exclude: [
