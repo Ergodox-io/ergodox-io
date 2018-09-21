@@ -11,5 +11,3 @@ External links to some popular guides to building the ErgoDox Keyboard
 
 [Imgur Build Log](http://imgur.com/a/3riAB): user robotmaxtron shares his build log \(including mistakes\).
 
-[Massdrop](https://www.massdrop.com/ext/ergodox/assembly.php) also has a really great guide for assembly.
-
