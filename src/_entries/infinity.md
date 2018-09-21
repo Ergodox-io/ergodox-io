@@ -6,7 +6,7 @@ is-parent: yes
 number: 3300
 title: Infinity
 ---
-Another very popular variant of the ErgoDox is the ErgoDox Infinity developed by Input.club. This variant has added an LCD screen built into each half as well as a few other updates to the original design. 
+Another variant of the ErgoDox is the ErgoDox Infinity developed by Input.club. This variant has added an LCD screen built into each half as well as a few other updates to the original design. 
 
 - Firmware options:
   - [QMK](http://qmk.fm/)
