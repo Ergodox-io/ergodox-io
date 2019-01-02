@@ -8,8 +8,9 @@
 <link rel="stylesheet" href="css/main.css">
 <link href="https://overpass-30e2.kxcdn.com/overpass-mono.css" rel="stylesheet" />
 
-	<!-- Begin Jekyll SEO tag v2.2.3 -->
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>index | ErgoDox Mechanical Keyboard</title>
+<meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="index" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation and build guide for the ErgoDox mechanical keyboard" />
@@ -18,7 +19,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="ErgoDox Mechanical Keyboard" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebSite","name":"ErgoDox Mechanical Keyboard","headline":"index","description":"Documentation and build guide for the ErgoDox mechanical keyboard","url":"http://localhost:4000/"}</script>
+{"description":"Documentation and build guide for the ErgoDox mechanical keyboard","headline":"index","@type":"WebSite","url":"http://localhost:4000/","name":"ErgoDox Mechanical Keyboard","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     </head>
@@ -185,8 +186,6 @@
     </li>
     
 </ul>
- <a href="http://ergodox-ez.com" id="ezbanner" target="_blank" title="ErgoDox EZ"><img src="../img/ergodox_ez.svg"></a>
-
             </div>
 
             <div class="content">
@@ -371,9 +370,8 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
 
 <p>The 1.5u outer column keys can optionally be mounted closer in and 1u keycaps can be used.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Note: This layout is only supported on the newer (post 2012) revisions of the pcb and will require a modified plate design to support the new placement.
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: This layout is only supported on the newer (post 2012) revisions of the pcb and will require a modified plate design to support the new placement.
+</code></pre></div></div>
 
 <ul>
   <li>If the 80 key layout is used, a slightly different keycap configuration will be needed replacing the 2u keys with two 1u keys each:
@@ -403,9 +401,8 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
       <li><img src="../img/diode-min.jpg" alt="diode" /></li>
       <li>1b. If <em>through hole</em> diodes are chosen, place them through the two hole immediately to the left and right of copper pads under the square that the switch will take up. Be sure to check the orientation to be sure that the cathode/negative side of the diode is closest to the square hole. Solder and repeat for each switch on both hands.</li>
       <li><img src="../img/th-diode-min.jpg" alt="Through-hole diode" />
-        <div class="highlighter-rouge"><pre class="highlight"><code> Note: The additional holes in this second image are for through switch LEDs. Only one diode per switch is needed.
-</code></pre>
-        </div>
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Note: The additional holes in this second image are for through switch LEDs. Only one diode per switch is needed.
+</code></pre></div>        </div>
       </li>
     </ul>
   </li>
@@ -413,14 +410,12 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
     <p>Flip both of the pcbs over, this face up side (without the diodes) will be the side that the remaining components will be placed.</p>
   </li>
   <li>Insert both the 2.2k ohm resistors and 220 ohm (or whatever resistors chosen appropriate for the leds selected) onto the right hand where labled on the pcb and solder into place.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Keep the legs clipped off the resistors, they can be used in a later step when the TRRS connections are installed.
+</code></pre></div>    </div>
   </li>
   <li>On the left hand pcb, insert the I/O expander around the MCP23018 rectangle. The I/O expander is directional and the notch on the I/O expander should match up with the silkscreen. The notch on the expander will be facing ErgoDox printing on the circuit board. See the image in the next step for an example.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: There are three holes without copper pads and do not need to be soldered.
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: There are three holes without copper pads and do not need to be soldered.
+</code></pre></div>    </div>
   </li>
   <li><em>(Optional but suggested step)</em> On the left hand pcb, insert the ceramic capacitor into the first and third holes of the top row and solder in place.
     <ul>
@@ -436,9 +431,8 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
     </ul>
   </li>
   <li>Install the male jumper pins to the underside of the Teensy with the button face up and solder the pins to the top side of the Teensy.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: If the Teensy already has jumpers already installed, skip this step.
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: If the Teensy already has jumpers already installed, skip this step.
+</code></pre></div>    </div>
   </li>
   <li>Insert the Teensy jumper legs from the Teensy assembly onto the right hand pcb with the usb facing the direction of the resistors and solder in place.
     <ul>
@@ -449,12 +443,11 @@ If you want to contribute to the project, pull requests, bugs (via Github issues
     <ul>
       <li>9a. Strip off all of the sheathing from the cable, exposing the 4 wires.</li>
       <li>9b. Place the following wires into their respective holes:
-        <div class="highlighter-rouge"><pre class="highlight"><code>White: D-
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>White: D-
 Red:   5v
 Green: D+
 Black: GND
-</code></pre>
-        </div>
+</code></pre></div>        </div>
       </li>
       <li>9c. Solder wires to the pcb.</li>
       <li><img src="../img/wiring-min.jpg" alt="wiring" /></li>
@@ -478,16 +471,14 @@ Black: GND
         </ul>
       </li>
       <li>11c. Solder switches in place.
-        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Make note of the location for the three switches on the right hand that will support the LEDs
-</code></pre>
-        </div>
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Make note of the location for the three switches on the right hand that will support the LEDs
+</code></pre></div>        </div>
       </li>
     </ul>
   </li>
   <li>On the right hand, insert the three leds through the housing of the three switches and solder into place.
-    <div class="highlighter-rouge"><pre class="highlight"><code>Note: LEDs have polarity so be sure that the negative leg (which is the shorter of the two legs) of the LEDs goes into the (face up) square hole.
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: LEDs have polarity so be sure that the negative leg (which is the shorter of the two legs) of the LEDs goes into the (face up) square hole.
+</code></pre></div>    </div>
   </li>
   <li>Finish assembling the case, plug in the TRRS cable between the two halves and proceed to building and flashing the selected firmware.</li>
 </ol>
@@ -532,9 +523,8 @@ Black: GND
 
             <p>A build guide for compiling and customizing your firmware is best found in the repo’s <a href="https://github.com/jackhumbert/qmk_firmware">readme</a></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: There are many users who have committed their keymaps that can be built on and easily adapted to suit your needs.
+</code></pre></div></div>
 
 <p>The ErgoDox-EZ Configurator tool can also be used to generate keymappings and their .hex files with QMK.</p>
 
@@ -622,9 +612,8 @@ Black: GND
       <li>Start the Teensy Loader program</li>
       <li>Load the .hex file into it.</li>
       <li>Press the Reset button by pressing the reset button onboard the Teensy, you may need to insert something such as a paperclip or small screwdriver gently into the reset hole in the top right corner of your case.
-        <div class="highlighter-rouge"><pre class="highlight"><code>Note: Some firmware (such as QMK and TMK) allow for the resetting of your atmel chip to be programmed as a keycode.
-</code></pre>
-        </div>
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Some firmware (such as QMK and TMK) allow for the resetting of your atmel chip to be programmed as a keycode.
+</code></pre></div>        </div>
       </li>
       <li>Click the button in the Teensy app to upload the firmware to your keyboard.</li>
     </ol>
@@ -793,9 +782,8 @@ Black: GND
 <p><img src="../img/gamepad2-min.jpg" alt="Gamepad" /></p>
 
 <p>The new “top” of PCB. Teensy is installed upside down. 2.2k resistors, jumpers, and USB port installed on top. In this revision of the PCB, the jumpers dictate which side the USB port can be installed on as well as the TRRS port (which isn’t used in gamepad configuration).</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>	Note: that the USB connection wires are installed (from left to right) empty, black, green, red, white. This is different from the silk screen layout as the usb port is now on "backwards".
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	Note: that the USB connection wires are installed (from left to right) empty, black, green, red, white. This is different from the silk screen layout as the usb port is now on "backwards".
+</code></pre></div></div>
 <p><img src="../img/gamepad4-min.jpg" alt="Gamepad" /></p>
 
 <p>The new “bottom” of the PCB. The reset switch has been soldered to the bottom. LED resistors have also been soldered to bottom.</p>
@@ -806,6 +794,22 @@ Black: GND
 
 
             </div>
+
+            <section class="fixed-banner" id="fixedBanner">
+  <span class="close">X</span>
+  <span class="detail">SPONSORED BY</span>
+  <div class="wrapper">
+    <div class="display">
+      <img src="../img/ergodox-logo.png" alt="" width="429" height="65" title="ErgoDox EZ">
+    </div>
+    <span class="decoration"></span>
+    <div class="column">
+      <div class="title">Pre-assembled, improved, with a 2-year warranty.</div>
+      <a href="https://ergodox-ez.com/?source=ergodox-io" class="link" title="Customize yours today">Customize yours today</a>
+    </div>
+  </div>
+</section>
+
         </div>
 
         <script src="js/jquery-2.1.1.min.js"></script>
