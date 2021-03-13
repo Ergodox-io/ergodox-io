@@ -3,7 +3,7 @@ The new home of the ErgoDox project; an entirely open source, split hand, keyboa
 
 Site is built with [Jekyll](http://jekyllrb.com/) and themed with [Docster](http://digitalmindch.github.io/docster-jekyll-theme/)
 
-##Repo Structure:
+## Repo Structure:
 Github page is served to http://www.ergodox.io from the /deploy directory and the source code to render is all inside of the /src directory. 
 
 ## Prerequsities
