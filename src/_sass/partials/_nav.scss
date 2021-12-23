@@ -38,9 +38,7 @@
         z-index: 100;
     }
     ul {
-        list-style: none;
         counter-reset: nested-counter;
-        padding-left: 0;
         li {
             counter-increment: nested-counter;
             font-size: 98%;
