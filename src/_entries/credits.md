@@ -6,7 +6,7 @@ title: Who built this?
 is-parent: yes
 number: 1100
 ---
-The ErgoDox keyboard is a DIY keyboard project originally developed by "Dox" (Dominic Beauchamp) inspired by the [Key64 Keyboard](https://www.key64.org).
+The ErgoDox keyboard is a DIY keyboard project originally developed by "Dox" (Dominic Beauchamp) inspired by the [Key64 Keyboard]([https://www.key64.org](https://web.archive.org/web/20211107112410/https://www.key64.org/front-page?set_language=en).
 
 The printed circuit board was designed by "bpiphany" (Fredrik Atmer).
 
